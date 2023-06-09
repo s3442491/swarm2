@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from thymio_msgs/msg/Led.msg
+// generated code does not contain a copyright notice
+
+
+module thymio_msgs {
+  module msg {
+    module Led_Constants {
+      const uint8 CIRCLE = 0;
+      const uint8 PROXIMITY = 1;
+      const uint8 BUTTONS = 2;
+      const uint8 GROUND = 3;
+      const uint8 TEMPERATURE = 4;
+      const uint8 MICROPHONE = 5;
+      const uint8 REMOTE = 6;
+    };
+    struct Led {
+      uint8 id;
+
+      sequence<float> values;
+    };
+  };
+};

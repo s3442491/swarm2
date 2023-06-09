@@ -1,0 +1,10 @@
+{
+  "package_name": "thymio_msgs",
+  "non_idl_tuples": [
+    "/home/user/ROS2swarm/src/ros-thymio/thymio_msgs:msg/Led.msg",
+    "/home/user/ROS2swarm/src/ros-thymio/thymio_msgs:msg/LedGesture.msg",
+    "/home/user/ROS2swarm/src/ros-thymio/thymio_msgs:msg/Sound.msg",
+    "/home/user/ROS2swarm/src/ros-thymio/thymio_msgs:msg/SystemSound.msg",
+    "/home/user/ROS2swarm/src/ros-thymio/thymio_msgs:msg/Comm.msg"
+  ]
+}

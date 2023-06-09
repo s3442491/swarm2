@@ -33,17 +33,16 @@ def generate_launch_description():
 
     ld = LaunchDescription()
     # Add sensor layer
-    ros2_sensor_layer_node = launch_ros.actions.Node(
-        package='ros2swarm',
-        executable=[sensor_type,'_layer'],
-        namespace=robot_namespace,
-        output='screen',
-        parameters=[PathJoinSubstitution([config_dir, 'sensor_specification' + '.yaml'])],
-        arguments=['--ros-args', '--log-level', log_level]
-    )
-    ld.add_action(ros2_sensor_layer_node)
-
     if robot_type != "rosbot":
+        ros2_sensor_layer_node = launch_ros.actions.Node(
+            package='ros2swarm',
+            executable=[sensor_type,'_layer'],
+            namespace=robot_namespace,
+            output='screen',
+            parameters=[PathJoinSubstitution([config_dir, 'sensor_specification' + '.yaml'])],
+            arguments=['--ros-args', '--log-level', log_level]
+        )
+        ld.add_action(ros2_sensor_layer_node)
         # Add Hardware protection layer
         ros2_hardware_protection_layer_node = launch_ros.actions.Node(
             package='ros2swarm',
@@ -65,7 +64,7 @@ def generate_launch_description():
 
     )
     ld.add_action(launch_pattern)
-    if urdf_file:
+    if robot_type != "rosbot" and urdf_file:
         # Add state publisher
         robot_state_publisher = launch_ros.actions.Node(
             package='robot_state_publisher',
@@ -77,5 +76,4 @@ def generate_launch_description():
             arguments=[urdf_file, '--ros-args', '--log-level', 'warn']
         )
         ld.add_action(robot_state_publisher)
-
     return ld

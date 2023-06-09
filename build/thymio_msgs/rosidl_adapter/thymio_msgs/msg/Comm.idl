@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from thymio_msgs/msg/Comm.msg
+// generated code does not contain a copyright notice
+
+
+module thymio_msgs {
+  module msg {
+    typedef int16 int16__7[7];
+    struct Comm {
+      int16 value;
+
+      int16__7 payloads;
+
+      int16__7 intensities;
+    };
+  };
+};

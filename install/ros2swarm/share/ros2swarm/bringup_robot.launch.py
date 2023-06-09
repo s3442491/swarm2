@@ -38,6 +38,7 @@ def generate_launch_description():
 
     launch_file_dir = os.path.join(get_package_share_directory('ros2swarm'))
     launch_pattern_dir = os.path.join(get_package_share_directory('ros2swarm'), 'launch', 'pattern')
+    rosbot2_pro_launch_file_dir = os.path.join(get_package_share_directory('rosbot_description'), 'launch')
 
     for arg in sys.argv:
         if arg.startswith("robot_number:="):  # The number of the robot
@@ -106,15 +107,11 @@ def generate_launch_description():
         ld.add_action(turtle_node)
         urdf_file_name = 'turtlebot3_' + robot + '.urdf'
         urdf_file = os.path.join(get_package_share_directory('turtlebot3_description'), 'urdf', urdf_file_name)
-    elif rosbot_node:
-        # add rosbot node
-        rosbot_namespace = ['robot_namespace_', str(robot_number)]
-        rosbot_node = IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([launch_file_dir, '/rosbot_bringup.launch.py']),
-            launch_arguments={'rosbot_namespace': rosbot_namespace,
-                              'pattern': pattern}
-        )
-        ld.add_action(rosbot_node)
+    # elif rosbot_node:
+        # rosbot2_pro_node = IncludeLaunchDescription(
+        #     PythonLaunchDescriptionSource([rosbot2_pro_launch_file_dir, '/rosbot_pro.launch.py'])
+        # )
+        # ld.add_action(rosbot2_pro_node)
     config_dir = os.path.join(get_package_share_directory('ros2swarm'), 'config', robot_type)
     # find out exact path of the pattern launch file
     pattern_launch_file_name = pattern + '.launch.py'

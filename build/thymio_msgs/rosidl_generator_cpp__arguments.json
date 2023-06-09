@@ -1,0 +1,40 @@
+{
+  "package_name": "thymio_msgs",
+  "output_dir": "/home/user/ROS2swarm/build/thymio_msgs/rosidl_generator_cpp/thymio_msgs",
+  "template_dir": "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource",
+  "idl_tuples": [
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs:msg/Led.idl",
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs:msg/LedGesture.idl",
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs:msg/Sound.idl",
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs:msg/SystemSound.idl",
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs:msg/Comm.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/foxy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
+    "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py",
+    "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/action__builder.hpp.em",
+    "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/action__struct.hpp.em",
+    "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/action__traits.hpp.em",
+    "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/idl.hpp.em",
+    "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/idl__builder.hpp.em",
+    "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/idl__struct.hpp.em",
+    "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/idl__traits.hpp.em",
+    "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/msg__builder.hpp.em",
+    "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/msg__struct.hpp.em",
+    "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/msg__traits.hpp.em",
+    "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
+    "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
+    "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs/msg/Led.idl",
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs/msg/LedGesture.idl",
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs/msg/Sound.idl",
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs/msg/SystemSound.idl",
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs/msg/Comm.idl",
+    "/opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/foxy/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

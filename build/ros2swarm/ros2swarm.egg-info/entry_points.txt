@@ -15,6 +15,7 @@ majority_rule_pattern = ros2swarm.voting_pattern.basic.majority_rule_pattern:mai
 minimalist_flocking_pattern = ros2swarm.movement_pattern.basic.minimalist_flocking_pattern:main
 random_walk_pattern = ros2swarm.movement_pattern.basic.random_walk_pattern:main
 rat_search_pattern = ros2swarm.movement_pattern.basic.rat_search_pattern:main
+target_nav2_pattern = ros2swarm.movement_pattern.basic.target_nav2_pattern:main
 voter_model_pattern = ros2swarm.voting_pattern.basic.voter_model_pattern:main
 voter_model_with_limiter_pattern = ros2swarm.voting_pattern.basic.voter_model_with_limiter_pattern:main
 

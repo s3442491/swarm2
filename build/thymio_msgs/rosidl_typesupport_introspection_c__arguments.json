@@ -1,0 +1,33 @@
+{
+  "package_name": "thymio_msgs",
+  "output_dir": "/home/user/ROS2swarm/build/thymio_msgs/rosidl_typesupport_introspection_c/thymio_msgs",
+  "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs:msg/Led.idl",
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs:msg/LedGesture.idl",
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs:msg/Sound.idl",
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs:msg/SystemSound.idl",
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs:msg/Comm.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/foxy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/foxy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs/msg/Led.idl",
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs/msg/LedGesture.idl",
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs/msg/Sound.idl",
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs/msg/SystemSound.idl",
+    "/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs/msg/Comm.idl",
+    "/opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/foxy/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

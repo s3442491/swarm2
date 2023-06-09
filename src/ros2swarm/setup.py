@@ -68,6 +68,12 @@ setup(
         (os.path.join('share', package_name, 'config', 'thymio', 'voting_pattern', 'basic'),
          glob('config/thymio/voting_pattern/basic/*.yaml')),
 
+         (os.path.join('share', package_name, 'config', 'rosbot'), glob('config/rosbot/*.yaml')),
+        (os.path.join('share', package_name, 'config', 'rosbot', 'movement_pattern'),
+         glob('config/rosbot/movement_pattern/*.yaml')),
+        (os.path.join('share', package_name, 'config', 'rosbot', 'movement_pattern', 'basic'),
+         glob('config/rosbot/movement_pattern/basic/*.yaml')),
+
         (os.path.join('share', package_name, 'param'), glob('param/*.yaml')),
     ],
     install_requires=['setuptools'],
@@ -117,6 +123,9 @@ setup(
             'ros2swarm.movement_pattern.basic.rat_search_pattern:main',
             'demo_pattern = '
             'ros2swarm.movement_pattern.basic.demo_pattern:main',
+            'target_nav2_pattern = '
+            'ros2swarm.movement_pattern.basic.target_nav2_pattern:main',
+            
             # movement_pattern.combined
             'discussed_dispersion_pattern = '
             'ros2swarm.movement_pattern.combined.discussed_dispersion_pattern:main',

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from thymio_msgs/msg/SystemSound.msg
+// generated code does not contain a copyright notice
+
+
+module thymio_msgs {
+  module msg {
+    module SystemSound_Constants {
+      const int8 STOP = -1;
+      const int8 STARTUP = 0;
+      const int8 SHUTDOWN = 1;
+      const int8 ARROW_BUTTON = 2;
+      const int8 CENTRAL_BUTTON = 3;
+      const int8 FREE_FALL = 4;
+      const int8 COLLISION = 5;
+      const int8 TARGET_OK = 6;
+      const int8 TARGET_DETECT = 7;
+    };
+    struct SystemSound {
+      int8 sound;
+    };
+  };
+};

@@ -1,0 +1,5 @@
+/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs:msg/Led.idl
+/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs:msg/LedGesture.idl
+/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs:msg/Sound.idl
+/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs:msg/SystemSound.idl
+/home/user/ROS2swarm/build/thymio_msgs/rosidl_adapter/thymio_msgs:msg/Comm.idl

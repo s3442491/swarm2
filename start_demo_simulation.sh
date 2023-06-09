@@ -20,7 +20,7 @@ colcon build --symlink-install --packages-select communication_interfaces launch
  number_robots:=3 \
  log_level:=info \
  robot:=waffle_pi \
- sensor_type:=ir
+ sensor_type:=lidar
  
 # gazebo_world arena_large.world | arena.world | empty.world | turtle.world | 560x540m.world | Ymaze.world | Ymaze_camber.world | Ymaze_camber_top.world
 

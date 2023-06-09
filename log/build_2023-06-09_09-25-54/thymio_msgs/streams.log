@@ -1,0 +1,40 @@
+[0.109s] Invoking command in '/home/user/ROS2swarm/build/thymio_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/ROS2swarm/src/ros-thymio/thymio_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ROS2swarm/install/thymio_msgs
+[1.489s] -- The C compiler identification is GNU 9.3.0
+[1.490s] -- The CXX compiler identification is GNU 9.3.0
+[1.490s] -- Check for working C compiler: /usr/bin/cc
+[1.490s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.490s] -- Detecting C compiler ABI info
+[1.490s] -- Detecting C compiler ABI info - done
+[1.507s] -- Detecting C compile features
+[1.508s] -- Detecting C compile features - done
+[1.514s] -- Check for working CXX compiler: /usr/bin/c++
+[1.662s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.664s] -- Detecting CXX compiler ABI info
+[1.812s] -- Detecting CXX compiler ABI info - done
+[1.837s] -- Detecting CXX compile features
+[1.838s] -- Detecting CXX compile features - done
+[1.862s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.953s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.953s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.445s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.632s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[2.776s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.825s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.160s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.261s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.539s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.640s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.750s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.071s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[4.466s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.503s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.563s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.574s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.646s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.646s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.647s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.647s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.698s] -- Found PythonExtra: .so  
+[4.868s] -- Configuring done
+[4.967s] -- Generating done
+[4.973s] -- Build files have been written to: /home/user/ROS2swarm/build/thymio_msgs

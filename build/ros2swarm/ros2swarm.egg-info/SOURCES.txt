@@ -30,6 +30,10 @@ config/jackal/movement_pattern/combined/discussed_dispersion_pattern.yaml
 config/jackal/voting_pattern/basic/majority_rule_pattern.yaml
 config/jackal/voting_pattern/basic/voter_model_pattern.yaml
 config/jackal/voting_pattern/basic/voter_model_with_limiter_pattern.yaml
+config/rosbot/hardware_protection_layer.yaml
+config/rosbot/sensor_specification.yaml
+config/rosbot/movement_pattern/basic/demo_pattern.yaml
+config/rosbot/movement_pattern/basic/target_nav2_pattern.yaml
 config/thymio/hardware_protection_layer.yaml
 config/thymio/sensor_specification.yaml
 config/thymio/movement_pattern/basic/aggregation_pattern.yaml

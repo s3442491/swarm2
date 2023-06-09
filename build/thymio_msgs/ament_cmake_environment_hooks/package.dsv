@@ -1,0 +1,4 @@
+source;share/thymio_msgs/local_setup.bash
+source;share/thymio_msgs/local_setup.dsv
+source;share/thymio_msgs/local_setup.sh
+source;share/thymio_msgs/local_setup.zsh
