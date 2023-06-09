@@ -1,0 +1,15 @@
+[0.161s] Invoking command in '/home/user/ROS2swarm/build/communication_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ROS2swarm/build/communication_interfaces -- -j8 -l8
+[4.963s] [  1%] Built target communication_interfaces__cpp
+[5.010s] [ 12%] Built target communication_interfaces__rosidl_generator_c
+[5.034s] [ 24%] Built target communication_interfaces__rosidl_typesupport_introspection_cpp
+[5.042s] [ 35%] Built target communication_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.059s] [ 46%] Built target communication_interfaces__rosidl_typesupport_cpp
+[5.084s] [ 58%] Built target communication_interfaces__rosidl_typesupport_c
+[5.095s] [ 69%] Built target communication_interfaces__rosidl_typesupport_introspection_c
+[5.114s] [ 81%] Built target communication_interfaces__rosidl_typesupport_fastrtps_c
+[5.171s] [ 81%] Built target communication_interfaces
+[5.229s] [ 82%] Built target communication_interfaces__py
+[5.299s] [ 92%] Built target communication_interfaces__python
+[5.364s] [ 94%] Built target communication_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.366s] [ 97%] Built target communication_interfaces__rosidl_typesupport_c__pyext
+[5.372s] [100%] Built target communication_interfaces__rosidl_typesupport_fastrtps_c__pyext

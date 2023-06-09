@@ -1,0 +1,1 @@
+/home/user/ROS2swarm/build/communication_interfaces/rosidl_generator_c/communication_interfaces/msg/detail/string_message__type_support.h

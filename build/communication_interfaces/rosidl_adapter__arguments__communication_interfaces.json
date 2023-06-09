@@ -1,0 +1,12 @@
+{
+  "package_name": "communication_interfaces",
+  "non_idl_tuples": [
+    "/home/user/ROS2swarm/src/communication_interfaces:msg/OpinionMessage.msg",
+    "/home/user/ROS2swarm/src/communication_interfaces:msg/OpinionMACMessage.msg",
+    "/home/user/ROS2swarm/src/communication_interfaces:msg/StringMessage.msg",
+    "/home/user/ROS2swarm/src/communication_interfaces:msg/DoubleMessage.msg",
+    "/home/user/ROS2swarm/src/communication_interfaces:msg/Int8Message.msg",
+    "/home/user/ROS2swarm/src/communication_interfaces:msg/RangeData.msg",
+    "/home/user/ROS2swarm/src/communication_interfaces:msg/FloatArray.msg"
+  ]
+}

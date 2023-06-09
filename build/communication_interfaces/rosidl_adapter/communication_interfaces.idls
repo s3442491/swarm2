@@ -1,0 +1,7 @@
+/home/user/ROS2swarm/build/communication_interfaces/rosidl_adapter/communication_interfaces:msg/OpinionMessage.idl
+/home/user/ROS2swarm/build/communication_interfaces/rosidl_adapter/communication_interfaces:msg/OpinionMACMessage.idl
+/home/user/ROS2swarm/build/communication_interfaces/rosidl_adapter/communication_interfaces:msg/StringMessage.idl
+/home/user/ROS2swarm/build/communication_interfaces/rosidl_adapter/communication_interfaces:msg/DoubleMessage.idl
+/home/user/ROS2swarm/build/communication_interfaces/rosidl_adapter/communication_interfaces:msg/Int8Message.idl
+/home/user/ROS2swarm/build/communication_interfaces/rosidl_adapter/communication_interfaces:msg/RangeData.idl
+/home/user/ROS2swarm/build/communication_interfaces/rosidl_adapter/communication_interfaces:msg/FloatArray.idl

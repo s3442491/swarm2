@@ -1,0 +1,14 @@
+msg/DoubleMessage.idl
+msg/DoubleMessage.msg
+msg/FloatArray.idl
+msg/FloatArray.msg
+msg/Int8Message.idl
+msg/Int8Message.msg
+msg/OpinionMACMessage.idl
+msg/OpinionMACMessage.msg
+msg/OpinionMessage.idl
+msg/OpinionMessage.msg
+msg/RangeData.idl
+msg/RangeData.msg
+msg/StringMessage.idl
+msg/StringMessage.msg

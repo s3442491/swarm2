@@ -1,0 +1,39 @@
+[1.100s] Invoking command in '/home/user/ROS2swarm/build/ros2swarm': PYTHONPATH=/home/user/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/ROS2swarm/install/ros2swarm --editable --build-directory /home/user/ROS2swarm/build/ros2swarm/build --no-deps install_data --install-dir /home/user/ROS2swarm/install/ros2swarm
+[1.663s] running develop
+[2.042s] running egg_info
+[2.043s] creating ros2swarm.egg-info
+[2.043s] writing ros2swarm.egg-info/PKG-INFO
+[2.043s] writing dependency_links to ros2swarm.egg-info/dependency_links.txt
+[2.043s] writing entry points to ros2swarm.egg-info/entry_points.txt
+[2.044s] writing requirements to ros2swarm.egg-info/requires.txt
+[2.044s] writing top-level names to ros2swarm.egg-info/top_level.txt
+[2.046s] writing manifest file 'ros2swarm.egg-info/SOURCES.txt'
+[2.106s] reading manifest file 'ros2swarm.egg-info/SOURCES.txt'
+[2.116s] writing manifest file 'ros2swarm.egg-info/SOURCES.txt'
+[2.195s] running build_ext
+[2.196s] Creating /home/user/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages/ros2swarm.egg-link (link to .)
+[2.196s] Installing aggregation_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[2.197s] Installing attraction_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[2.197s] Installing attraction_pattern2 script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[2.198s] Installing demo_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[2.198s] Installing discussed_dispersion_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[2.198s] Installing dispersion_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[2.199s] Installing drive_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[2.199s] Installing hardware_protection_layer script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[2.199s] Installing ir_layer script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[2.200s] Installing ir_tf_layer script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[2.200s] Installing lidar_layer script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[2.200s] Installing magnetometer_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[2.200s] Installing majority_rule_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[2.200s] Installing minimalist_flocking_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[2.201s] Installing random_walk_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[2.201s] Installing rat_search_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[2.201s] Installing voter_model_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[2.202s] Installing voter_model_with_limiter_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[2.202s] 
+[2.202s] Installed /home/user/ROS2swarm/build/ros2swarm
+[2.202s] running install_data
+[2.203s] copying launch/rosbot_bringup.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm
+[2.203s] copying launch/bringup_patterns.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm
+[2.203s] copying launch/bringup_robot.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm
+[2.276s] Invoked command in '/home/user/ROS2swarm/build/ros2swarm' returned '0': PYTHONPATH=/home/user/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/ROS2swarm/install/ros2swarm --editable --build-directory /home/user/ROS2swarm/build/ros2swarm/build --no-deps install_data --install-dir /home/user/ROS2swarm/install/ros2swarm

@@ -1,0 +1,792 @@
+[0.000000] (-) TimerEvent: {}
+[0.000198] (-) JobUnselected: {'identifier': 'thymio_description'}
+[0.000269] (-) JobUnselected: {'identifier': 'thymio_driver'}
+[0.000326] (-) JobUnselected: {'identifier': 'thymio_msgs'}
+[0.000384] (communication_interfaces) JobQueued: {'identifier': 'communication_interfaces', 'dependencies': OrderedDict()}
+[0.000441] (launch_gazebo) JobQueued: {'identifier': 'launch_gazebo', 'dependencies': OrderedDict()}
+[0.000493] (ros2swarm) JobQueued: {'identifier': 'ros2swarm', 'dependencies': OrderedDict()}
+[0.001003] (communication_interfaces) JobStarted: {'identifier': 'communication_interfaces'}
+[0.021785] (launch_gazebo) JobStarted: {'identifier': 'launch_gazebo'}
+[0.041239] (ros2swarm) JobStarted: {'identifier': 'ros2swarm'}
+[0.064145] (communication_interfaces) JobProgress: {'identifier': 'communication_interfaces', 'progress': 'cmake'}
+[0.064866] (communication_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ROS2swarm/src/communication_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/user/ROS2swarm/install/communication_interfaces'], 'cwd': '/home/user/ROS2swarm/build/communication_interfaces', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('PWD', '/home/user/ROS2swarm/build/communication_interfaces'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_DOMAIN_ID', '30'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/user/turtlebot3_ws/install/turtlebot3:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_simulations:/home/user/turtlebot3_ws/install/turtlebot3_bringup:/home/user/turtlebot3_ws/install/turtlebot3_node:/home/user/turtlebot3_ws/install/turtlebot3_navigation2:/home/user/turtlebot3_ws/install/turtlebot3_fake_node:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/turtlebot3_ws/install/turtlebot3_msgs:/home/user/turtlebot3_ws/install/turtlebot3_gazebo:/home/user/turtlebot3_ws/install/turtlebot3_description:/home/user/turtlebot3_ws/install/turtlebot3_cartographer:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/thymio_msgs:/home/user/ROS2swarm/install/thymio_description:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/ROS2swarm/install/communication_interfaces:/home/user/install/turtlebot3_teleop:/home/user/install/turtlebot3_navigation2:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/home/user/install/communication_interfaces:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/ros_components_description:/home/user/ros2_ws/install/husarion_office_gz:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/user/turtlebot3_ws/install/turtlebot3:/home/user/turtlebot3_ws/install/turtlebot3_simulations:/home/user/turtlebot3_ws/install/turtlebot3_bringup:/home/user/turtlebot3_ws/install/turtlebot3_node:/home/user/turtlebot3_ws/install/turtlebot3_navigation2:/home/user/turtlebot3_ws/install/turtlebot3_fake_node:/home/user/turtlebot3_ws/install/turtlebot3_msgs:/home/user/turtlebot3_ws/install/turtlebot3_gazebo:/home/user/turtlebot3_ws/install/turtlebot3_description:/home/user/turtlebot3_ws/install/turtlebot3_cartographer:/home/user/ROS2swarm/install/thymio_msgs:/home/user/ROS2swarm/install/thymio_description:/home/user/ROS2swarm/install/communication_interfaces:/home/user/install/turtlebot3_navigation2:/home/user/install/turtlebot3_description:/home/user/install/turtlebot3_cartographer:/home/user/install/communication_interfaces:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/ros_components_description:/home/user/ros2_ws/install/husarion_office_gz:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ROS2swarm/install:/home/user/install:/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install:/home/user/turtlebot3_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/turtlebot3_ws/build/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/user/turtlebot3_ws/build/turtlebot3_example:/home/user/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/user/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/user/ROS2swarm/build/thymio_driver:/home/user/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages:/home/user/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages:/home/user/ROS2swarm/build/ros2swarm:/home/user/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/user/ROS2swarm/build/launch_gazebo:/home/user/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages:/home/user/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/user/build/ros2swarm:/home/user/install/ros2swarm/lib/python3.8/site-packages:/home/user/build/launch_gazebo:/home/user/install/launch_gazebo/lib/python3.8/site-packages:/home/user/install/communication_interfaces/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '3'), ('NVM_CD_FLAGS', ''), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/user/ROS2swarm/install/thymio_msgs/lib:/home/user/ROS2swarm/install/communication_interfaces/lib:/home/user/install/communication_interfaces/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '675172'), ('SLOT_PREFIX', 'a04d2fe9-f09f-4f2b-9393-bdd6337d55f0'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox:/home/user/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:/home/user/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models'), ('SLOT_JENKINS_PORT', '25262'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099362] (-) TimerEvent: {}
+[0.199798] (-) TimerEvent: {}
+[0.300199] (-) TimerEvent: {}
+[0.401968] (-) TimerEvent: {}
+[0.502399] (-) TimerEvent: {}
+[0.603003] (-) TimerEvent: {}
+[0.703447] (-) TimerEvent: {}
+[0.803755] (-) TimerEvent: {}
+[0.904115] (-) TimerEvent: {}
+[1.004544] (-) TimerEvent: {}
+[1.104960] (-) TimerEvent: {}
+[1.118519] (launch_gazebo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/user/ROS2swarm/install/launch_gazebo', '--editable', '--build-directory', '/home/user/ROS2swarm/build/launch_gazebo/build', '--no-deps', 'install_data', '--install-dir', '/home/user/ROS2swarm/install/launch_gazebo'], 'cwd': '/home/user/ROS2swarm/build/launch_gazebo', 'env': {'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'GAZEBO_MASTER_URI': 'http://2_xterm:11345', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '2_xterm', 'NVIDIA_REQUIRE_CUDA': 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451', 'NCCL_VERSION': '2.7.8', 'PWD': '/home/user/ROS2swarm/build/launch_gazebo', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_DOMAIN_ID': '30', 'ROS_IP': '', 'HOME': '/home/user', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'CUDA_VERSION': '11.1.1', 'AMENT_PREFIX_PATH': '/home/user/turtlebot3_ws/install/turtlebot3:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_simulations:/home/user/turtlebot3_ws/install/turtlebot3_bringup:/home/user/turtlebot3_ws/install/turtlebot3_node:/home/user/turtlebot3_ws/install/turtlebot3_navigation2:/home/user/turtlebot3_ws/install/turtlebot3_fake_node:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/turtlebot3_ws/install/turtlebot3_msgs:/home/user/turtlebot3_ws/install/turtlebot3_gazebo:/home/user/turtlebot3_ws/install/turtlebot3_description:/home/user/turtlebot3_ws/install/turtlebot3_cartographer:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/thymio_msgs:/home/user/ROS2swarm/install/thymio_description:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/ROS2swarm/install/communication_interfaces:/home/user/install/turtlebot3_teleop:/home/user/install/turtlebot3_navigation2:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/home/user/install/communication_interfaces:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/ros_components_description:/home/user/ros2_ws/install/husarion_office_gz:/opt/ros/foxy', 'CMAKE_PREFIX_PATH': '/home/user/turtlebot3_ws/install/turtlebot3:/home/user/turtlebot3_ws/install/turtlebot3_simulations:/home/user/turtlebot3_ws/install/turtlebot3_bringup:/home/user/turtlebot3_ws/install/turtlebot3_node:/home/user/turtlebot3_ws/install/turtlebot3_navigation2:/home/user/turtlebot3_ws/install/turtlebot3_fake_node:/home/user/turtlebot3_ws/install/turtlebot3_msgs:/home/user/turtlebot3_ws/install/turtlebot3_gazebo:/home/user/turtlebot3_ws/install/turtlebot3_description:/home/user/turtlebot3_ws/install/turtlebot3_cartographer:/home/user/ROS2swarm/install/thymio_msgs:/home/user/ROS2swarm/install/thymio_description:/home/user/ROS2swarm/install/communication_interfaces:/home/user/install/turtlebot3_navigation2:/home/user/install/turtlebot3_description:/home/user/install/turtlebot3_cartographer:/home/user/install/communication_interfaces:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/ros_components_description:/home/user/ros2_ws/install/husarion_office_gz', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo', 'COLCON_PREFIX_PATH': '/home/user/ROS2swarm/install:/home/user/install:/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install:/home/user/turtlebot3_ws/install', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/user/turtlebot3_ws/build/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/user/turtlebot3_ws/build/turtlebot3_example:/home/user/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/user/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/user/ROS2swarm/build/thymio_driver:/home/user/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages:/home/user/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages:/home/user/ROS2swarm/build/ros2swarm:/home/user/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/user/ROS2swarm/build/launch_gazebo:/home/user/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages:/home/user/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/user/build/ros2swarm:/home/user/install/ros2swarm/lib/python3.8/site-packages:/home/user/build/launch_gazebo:/home/user/install/launch_gazebo/lib/python3.8/site-packages:/home/user/install/communication_interfaces/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAPCRAFT_BUILD_ENVIRONMENT': 'host', 'GAZEBO_MASTER_HOSTNAME': '2_xterm', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs', 'DISPLAY': ':1', 'SHLVL': '3', 'NVM_CD_FLAGS': '', 'TURTLEBOT3_MODEL': 'waffle_pi', 'ROS_MASTER_URI': 'http://2_xterm:11311', 'ROS_HOSTNAME': '2_xterm', 'LD_LIBRARY_PATH': '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/user/ROS2swarm/install/thymio_msgs/lib:/home/user/ROS2swarm/install/communication_interfaces/lib:/home/user/install/communication_interfaces/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'ROS_LOCALHOST_ONLY': '0', 'SLOT_SHELL_START_ID': '675172', 'SLOT_PREFIX': 'a04d2fe9-f09f-4f2b-9393-bdd6337d55f0', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': '', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox:/home/user/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:/home/user/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models', 'SLOT_JENKINS_PORT': '25262', 'SLOT_SYSTEMD': 'False', 'PATH': '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SELECTED_ROS_DISTRO': 'foxy', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin', 'NODE_VERSION': 'v6.11.2', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'foxy', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'OLDPWD': '/home/user', 'SOURCE_ROS2_WS': 'True', 'SLOT_ROSBRIDGE_PORT': '20002', '_': '/usr/bin/env'}, 'shell': False}
+[1.137175] (ros2swarm) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/user/ROS2swarm/install/ros2swarm', '--editable', '--build-directory', '/home/user/ROS2swarm/build/ros2swarm/build', '--no-deps', 'install_data', '--install-dir', '/home/user/ROS2swarm/install/ros2swarm'], 'cwd': '/home/user/ROS2swarm/build/ros2swarm', 'env': {'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'GAZEBO_MASTER_URI': 'http://2_xterm:11345', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '2_xterm', 'NVIDIA_REQUIRE_CUDA': 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451', 'NCCL_VERSION': '2.7.8', 'PWD': '/home/user/ROS2swarm/build/ros2swarm', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_DOMAIN_ID': '30', 'ROS_IP': '', 'HOME': '/home/user', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'CUDA_VERSION': '11.1.1', 'AMENT_PREFIX_PATH': '/home/user/turtlebot3_ws/install/turtlebot3:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_simulations:/home/user/turtlebot3_ws/install/turtlebot3_bringup:/home/user/turtlebot3_ws/install/turtlebot3_node:/home/user/turtlebot3_ws/install/turtlebot3_navigation2:/home/user/turtlebot3_ws/install/turtlebot3_fake_node:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/turtlebot3_ws/install/turtlebot3_msgs:/home/user/turtlebot3_ws/install/turtlebot3_gazebo:/home/user/turtlebot3_ws/install/turtlebot3_description:/home/user/turtlebot3_ws/install/turtlebot3_cartographer:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/thymio_msgs:/home/user/ROS2swarm/install/thymio_description:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/ROS2swarm/install/communication_interfaces:/home/user/install/turtlebot3_teleop:/home/user/install/turtlebot3_navigation2:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/home/user/install/communication_interfaces:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/ros_components_description:/home/user/ros2_ws/install/husarion_office_gz:/opt/ros/foxy', 'CMAKE_PREFIX_PATH': '/home/user/turtlebot3_ws/install/turtlebot3:/home/user/turtlebot3_ws/install/turtlebot3_simulations:/home/user/turtlebot3_ws/install/turtlebot3_bringup:/home/user/turtlebot3_ws/install/turtlebot3_node:/home/user/turtlebot3_ws/install/turtlebot3_navigation2:/home/user/turtlebot3_ws/install/turtlebot3_fake_node:/home/user/turtlebot3_ws/install/turtlebot3_msgs:/home/user/turtlebot3_ws/install/turtlebot3_gazebo:/home/user/turtlebot3_ws/install/turtlebot3_description:/home/user/turtlebot3_ws/install/turtlebot3_cartographer:/home/user/ROS2swarm/install/thymio_msgs:/home/user/ROS2swarm/install/thymio_description:/home/user/ROS2swarm/install/communication_interfaces:/home/user/install/turtlebot3_navigation2:/home/user/install/turtlebot3_description:/home/user/install/turtlebot3_cartographer:/home/user/install/communication_interfaces:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/ros_components_description:/home/user/ros2_ws/install/husarion_office_gz', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo', 'COLCON_PREFIX_PATH': '/home/user/ROS2swarm/install:/home/user/install:/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install:/home/user/turtlebot3_ws/install', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/user/turtlebot3_ws/build/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/user/turtlebot3_ws/build/turtlebot3_example:/home/user/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/user/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/user/ROS2swarm/build/thymio_driver:/home/user/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages:/home/user/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages:/home/user/ROS2swarm/build/ros2swarm:/home/user/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/user/ROS2swarm/build/launch_gazebo:/home/user/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages:/home/user/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/user/build/ros2swarm:/home/user/install/ros2swarm/lib/python3.8/site-packages:/home/user/build/launch_gazebo:/home/user/install/launch_gazebo/lib/python3.8/site-packages:/home/user/install/communication_interfaces/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAPCRAFT_BUILD_ENVIRONMENT': 'host', 'GAZEBO_MASTER_HOSTNAME': '2_xterm', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs', 'DISPLAY': ':1', 'SHLVL': '3', 'NVM_CD_FLAGS': '', 'TURTLEBOT3_MODEL': 'waffle_pi', 'ROS_MASTER_URI': 'http://2_xterm:11311', 'ROS_HOSTNAME': '2_xterm', 'LD_LIBRARY_PATH': '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/user/ROS2swarm/install/thymio_msgs/lib:/home/user/ROS2swarm/install/communication_interfaces/lib:/home/user/install/communication_interfaces/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'ROS_LOCALHOST_ONLY': '0', 'SLOT_SHELL_START_ID': '675172', 'SLOT_PREFIX': 'a04d2fe9-f09f-4f2b-9393-bdd6337d55f0', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': '', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox:/home/user/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:/home/user/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models', 'SLOT_JENKINS_PORT': '25262', 'SLOT_SYSTEMD': 'False', 'PATH': '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SELECTED_ROS_DISTRO': 'foxy', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin', 'NODE_VERSION': 'v6.11.2', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'foxy', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'OLDPWD': '/home/user', 'SOURCE_ROS2_WS': 'True', 'SLOT_ROSBRIDGE_PORT': '20002', '_': '/usr/bin/env'}, 'shell': False}
+[1.205115] (-) TimerEvent: {}
+[1.305673] (-) TimerEvent: {}
+[1.406069] (-) TimerEvent: {}
+[1.506520] (-) TimerEvent: {}
+[1.607304] (-) TimerEvent: {}
+[1.704314] (ros2swarm) StdoutLine: {'line': b'running develop\n'}
+[1.707408] (-) TimerEvent: {}
+[1.725234] (launch_gazebo) StdoutLine: {'line': b'running develop\n'}
+[1.807606] (-) TimerEvent: {}
+[1.907984] (-) TimerEvent: {}
+[2.008353] (-) TimerEvent: {}
+[2.083535] (ros2swarm) StdoutLine: {'line': b'running egg_info\n'}
+[2.084010] (ros2swarm) StdoutLine: {'line': b'creating ros2swarm.egg-info\n'}
+[2.084255] (ros2swarm) StdoutLine: {'line': b'writing ros2swarm.egg-info/PKG-INFO\n'}
+[2.084541] (ros2swarm) StdoutLine: {'line': b'writing dependency_links to ros2swarm.egg-info/dependency_links.txt\n'}
+[2.084794] (ros2swarm) StdoutLine: {'line': b'writing entry points to ros2swarm.egg-info/entry_points.txt\n'}
+[2.085055] (ros2swarm) StdoutLine: {'line': b'writing requirements to ros2swarm.egg-info/requires.txt\n'}
+[2.085330] (ros2swarm) StdoutLine: {'line': b'writing top-level names to ros2swarm.egg-info/top_level.txt\n'}
+[2.087886] (ros2swarm) StdoutLine: {'line': b"writing manifest file 'ros2swarm.egg-info/SOURCES.txt'\n"}
+[2.089184] (launch_gazebo) StdoutLine: {'line': b'running egg_info\n'}
+[2.089410] (launch_gazebo) StdoutLine: {'line': b'creating launch_gazebo.egg-info\n'}
+[2.089716] (launch_gazebo) StdoutLine: {'line': b'writing launch_gazebo.egg-info/PKG-INFO\n'}
+[2.090086] (launch_gazebo) StdoutLine: {'line': b'writing dependency_links to launch_gazebo.egg-info/dependency_links.txt\n'}
+[2.090509] (launch_gazebo) StdoutLine: {'line': b'writing entry points to launch_gazebo.egg-info/entry_points.txt\n'}
+[2.090711] (launch_gazebo) StdoutLine: {'line': b'writing requirements to launch_gazebo.egg-info/requires.txt\n'}
+[2.090980] (launch_gazebo) StdoutLine: {'line': b'writing top-level names to launch_gazebo.egg-info/top_level.txt\n'}
+[2.092955] (launch_gazebo) StdoutLine: {'line': b"writing manifest file 'launch_gazebo.egg-info/SOURCES.txt'\n"}
+[2.108460] (-) TimerEvent: {}
+[2.147333] (ros2swarm) StdoutLine: {'line': b"reading manifest file 'ros2swarm.egg-info/SOURCES.txt'\n"}
+[2.157645] (ros2swarm) StdoutLine: {'line': b"writing manifest file 'ros2swarm.egg-info/SOURCES.txt'\n"}
+[2.157918] (launch_gazebo) StdoutLine: {'line': b"reading manifest file 'launch_gazebo.egg-info/SOURCES.txt'\n"}
+[2.158114] (launch_gazebo) StdoutLine: {'line': b"writing manifest file 'launch_gazebo.egg-info/SOURCES.txt'\n"}
+[2.208581] (-) TimerEvent: {}
+[2.234782] (launch_gazebo) StdoutLine: {'line': b'running build_ext\n'}
+[2.235121] (launch_gazebo) StdoutLine: {'line': b'Creating /home/user/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages/launch-gazebo.egg-link (link to .)\n'}
+[2.235946] (launch_gazebo) StdoutLine: {'line': b'Installing add_bot_node script to /home/user/ROS2swarm/install/launch_gazebo/lib/launch_gazebo\n'}
+[2.236239] (ros2swarm) StdoutLine: {'line': b'running build_ext\n'}
+[2.236518] (launch_gazebo) StdoutLine: {'line': b'\n'}
+[2.236705] (launch_gazebo) StdoutLine: {'line': b'Installed /home/user/ROS2swarm/build/launch_gazebo\n'}
+[2.236883] (launch_gazebo) StdoutLine: {'line': b'running install_data\n'}
+[2.237114] (ros2swarm) StdoutLine: {'line': b'Creating /home/user/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages/ros2swarm.egg-link (link to .)\n'}
+[2.237943] (ros2swarm) StdoutLine: {'line': b'Installing aggregation_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm\n'}
+[2.238273] (ros2swarm) StdoutLine: {'line': b'Installing attraction_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm\n'}
+[2.239006] (ros2swarm) StdoutLine: {'line': b'Installing attraction_pattern2 script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm\n'}
+[2.239599] (ros2swarm) StdoutLine: {'line': b'Installing demo_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm\n'}
+[2.239790] (ros2swarm) StdoutLine: {'line': b'Installing discussed_dispersion_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm\n'}
+[2.239951] (ros2swarm) StdoutLine: {'line': b'Installing dispersion_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm\n'}
+[2.240129] (ros2swarm) StdoutLine: {'line': b'Installing drive_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm\n'}
+[2.240325] (ros2swarm) StdoutLine: {'line': b'Installing hardware_protection_layer script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm\n'}
+[2.240999] (ros2swarm) StdoutLine: {'line': b'Installing ir_layer script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm\n'}
+[2.241178] (ros2swarm) StdoutLine: {'line': b'Installing ir_tf_layer script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm\n'}
+[2.241372] (ros2swarm) StdoutLine: {'line': b'Installing lidar_layer script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm\n'}
+[2.241581] (ros2swarm) StdoutLine: {'line': b'Installing magnetometer_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm\n'}
+[2.241758] (ros2swarm) StdoutLine: {'line': b'Installing majority_rule_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm\n'}
+[2.242003] (ros2swarm) StdoutLine: {'line': b'Installing minimalist_flocking_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm\n'}
+[2.242159] (ros2swarm) StdoutLine: {'line': b'Installing random_walk_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm\n'}
+[2.242313] (ros2swarm) StdoutLine: {'line': b'Installing rat_search_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm\n'}
+[2.242739] (ros2swarm) StdoutLine: {'line': b'Installing voter_model_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm\n'}
+[2.243095] (ros2swarm) StdoutLine: {'line': b'Installing voter_model_with_limiter_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm\n'}
+[2.243312] (ros2swarm) StdoutLine: {'line': b'\n'}
+[2.243567] (ros2swarm) StdoutLine: {'line': b'Installed /home/user/ROS2swarm/build/ros2swarm\n'}
+[2.243769] (ros2swarm) StdoutLine: {'line': b'running install_data\n'}
+[2.243970] (ros2swarm) StdoutLine: {'line': b'copying launch/rosbot_bringup.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm\n'}
+[2.244582] (ros2swarm) StdoutLine: {'line': b'copying launch/bringup_patterns.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm\n'}
+[2.244839] (ros2swarm) StdoutLine: {'line': b'copying launch/bringup_robot.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm\n'}
+[2.280189] (launch_gazebo) CommandEnded: {'returncode': 0}
+[2.309229] (-) TimerEvent: {}
+[2.311010] (launch_gazebo) JobEnded: {'identifier': 'launch_gazebo', 'rc': 0}
+[2.317486] (ros2swarm) CommandEnded: {'returncode': 0}
+[2.332570] (ros2swarm) JobEnded: {'identifier': 'ros2swarm', 'rc': 0}
+[2.409423] (-) TimerEvent: {}
+[2.509895] (-) TimerEvent: {}
+[2.610465] (-) TimerEvent: {}
+[2.710941] (-) TimerEvent: {}
+[2.811589] (-) TimerEvent: {}
+[2.912062] (-) TimerEvent: {}
+[3.012502] (-) TimerEvent: {}
+[3.112938] (-) TimerEvent: {}
+[3.213377] (-) TimerEvent: {}
+[3.313862] (-) TimerEvent: {}
+[3.414346] (-) TimerEvent: {}
+[3.516033] (-) TimerEvent: {}
+[3.616510] (-) TimerEvent: {}
+[3.716995] (-) TimerEvent: {}
+[3.817372] (-) TimerEvent: {}
+[3.917805] (-) TimerEvent: {}
+[4.018144] (-) TimerEvent: {}
+[4.118544] (-) TimerEvent: {}
+[4.219021] (-) TimerEvent: {}
+[4.319473] (-) TimerEvent: {}
+[4.419872] (-) TimerEvent: {}
+[4.520340] (-) TimerEvent: {}
+[4.620797] (-) TimerEvent: {}
+[4.721187] (-) TimerEvent: {}
+[4.821579] (-) TimerEvent: {}
+[4.922020] (-) TimerEvent: {}
+[5.022375] (-) TimerEvent: {}
+[5.122757] (-) TimerEvent: {}
+[5.223170] (-) TimerEvent: {}
+[5.323479] (-) TimerEvent: {}
+[5.423803] (-) TimerEvent: {}
+[5.524100] (-) TimerEvent: {}
+[5.624462] (-) TimerEvent: {}
+[5.724818] (-) TimerEvent: {}
+[5.825257] (-) TimerEvent: {}
+[5.925710] (-) TimerEvent: {}
+[6.026108] (-) TimerEvent: {}
+[6.077646] (communication_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[6.126239] (-) TimerEvent: {}
+[6.226585] (-) TimerEvent: {}
+[6.326935] (-) TimerEvent: {}
+[6.427372] (-) TimerEvent: {}
+[6.527921] (-) TimerEvent: {}
+[6.628375] (-) TimerEvent: {}
+[6.728804] (-) TimerEvent: {}
+[6.829133] (-) TimerEvent: {}
+[6.929484] (-) TimerEvent: {}
+[7.030122] (-) TimerEvent: {}
+[7.130483] (-) TimerEvent: {}
+[7.230841] (-) TimerEvent: {}
+[7.331212] (-) TimerEvent: {}
+[7.431573] (-) TimerEvent: {}
+[7.531934] (-) TimerEvent: {}
+[7.632276] (-) TimerEvent: {}
+[7.732581] (-) TimerEvent: {}
+[7.832885] (-) TimerEvent: {}
+[7.933223] (-) TimerEvent: {}
+[8.033574] (-) TimerEvent: {}
+[8.133952] (-) TimerEvent: {}
+[8.234337] (-) TimerEvent: {}
+[8.334666] (-) TimerEvent: {}
+[8.435113] (-) TimerEvent: {}
+[8.535541] (-) TimerEvent: {}
+[8.635951] (-) TimerEvent: {}
+[8.736368] (-) TimerEvent: {}
+[8.836779] (-) TimerEvent: {}
+[8.937108] (-) TimerEvent: {}
+[9.037490] (-) TimerEvent: {}
+[9.137992] (-) TimerEvent: {}
+[9.238504] (-) TimerEvent: {}
+[9.338913] (-) TimerEvent: {}
+[9.439311] (-) TimerEvent: {}
+[9.539652] (-) TimerEvent: {}
+[9.640020] (-) TimerEvent: {}
+[9.740338] (-) TimerEvent: {}
+[9.840676] (-) TimerEvent: {}
+[9.941071] (-) TimerEvent: {}
+[10.041477] (-) TimerEvent: {}
+[10.141874] (-) TimerEvent: {}
+[10.242259] (-) TimerEvent: {}
+[10.278477] (communication_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[10.342366] (-) TimerEvent: {}
+[10.388029] (communication_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[10.442489] (-) TimerEvent: {}
+[10.505831] (communication_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[10.508702] (communication_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[10.542659] (-) TimerEvent: {}
+[10.614735] (communication_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[10.632600] (communication_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[10.642774] (-) TimerEvent: {}
+[10.741460] (communication_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[10.742905] (-) TimerEvent: {}
+[10.747054] (communication_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[10.843042] (-) TimerEvent: {}
+[10.861038] (communication_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[10.862605] (communication_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[10.943213] (-) TimerEvent: {}
+[10.979395] (communication_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[10.997950] (communication_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.998705] (communication_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[11.010116] (communication_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[11.043321] (-) TimerEvent: {}
+[11.143659] (-) TimerEvent: {}
+[11.166627] (communication_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[11.166941] (communication_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.244059] (-) TimerEvent: {}
+[11.344503] (-) TimerEvent: {}
+[11.444923] (-) TimerEvent: {}
+[11.545420] (-) TimerEvent: {}
+[11.599084] (communication_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[11.645565] (-) TimerEvent: {}
+[11.745920] (-) TimerEvent: {}
+[11.846277] (-) TimerEvent: {}
+[11.889501] (communication_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[11.946448] (-) TimerEvent: {}
+[12.038789] (communication_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.046533] (-) TimerEvent: {}
+[12.073111] (communication_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[12.146650] (-) TimerEvent: {}
+[12.247045] (-) TimerEvent: {}
+[12.347434] (-) TimerEvent: {}
+[12.447812] (-) TimerEvent: {}
+[12.548112] (-) TimerEvent: {}
+[12.648487] (-) TimerEvent: {}
+[12.748893] (-) TimerEvent: {}
+[12.849283] (-) TimerEvent: {}
+[12.949627] (-) TimerEvent: {}
+[13.050100] (-) TimerEvent: {}
+[13.061233] (communication_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[13.146083] (communication_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[13.150188] (-) TimerEvent: {}
+[13.250559] (-) TimerEvent: {}
+[13.351057] (-) TimerEvent: {}
+[13.418079] (communication_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.451195] (-) TimerEvent: {}
+[13.551617] (-) TimerEvent: {}
+[13.586650] (communication_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[13.651730] (-) TimerEvent: {}
+[13.674667] (communication_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[13.751912] (-) TimerEvent: {}
+[13.852272] (-) TimerEvent: {}
+[13.952670] (-) TimerEvent: {}
+[14.029413] (communication_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[14.052754] (-) TimerEvent: {}
+[14.153106] (-) TimerEvent: {}
+[14.253556] (-) TimerEvent: {}
+[14.353905] (-) TimerEvent: {}
+[14.454284] (-) TimerEvent: {}
+[14.458700] (communication_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.554398] (-) TimerEvent: {}
+[14.587286] (communication_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.638664] (communication_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[14.648544] (communication_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[14.654488] (-) TimerEvent: {}
+[14.754828] (-) TimerEvent: {}
+[14.792865] (communication_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[14.793253] (communication_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[14.793438] (communication_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[14.793606] (communication_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[14.838574] (communication_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[14.854934] (-) TimerEvent: {}
+[14.955328] (-) TimerEvent: {}
+[14.987572] (communication_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[15.055459] (-) TimerEvent: {}
+[15.155863] (-) TimerEvent: {}
+[15.171195] (communication_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[15.177343] (communication_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.188377] (communication_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.202016] (communication_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.255967] (-) TimerEvent: {}
+[15.356349] (-) TimerEvent: {}
+[15.456818] (-) TimerEvent: {}
+[15.557297] (-) TimerEvent: {}
+[15.657694] (-) TimerEvent: {}
+[15.758359] (-) TimerEvent: {}
+[15.858891] (-) TimerEvent: {}
+[15.959396] (-) TimerEvent: {}
+[15.964891] (communication_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[15.969356] (communication_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ROS2swarm/build/communication_interfaces\n'}
+[15.983172] (communication_interfaces) CommandEnded: {'returncode': 0}
+[15.987671] (communication_interfaces) JobProgress: {'identifier': 'communication_interfaces', 'progress': 'build'}
+[15.987924] (communication_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ROS2swarm/build/communication_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/user/ROS2swarm/build/communication_interfaces', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('PWD', '/home/user/ROS2swarm/build/communication_interfaces'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_DOMAIN_ID', '30'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/user/turtlebot3_ws/install/turtlebot3:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_simulations:/home/user/turtlebot3_ws/install/turtlebot3_bringup:/home/user/turtlebot3_ws/install/turtlebot3_node:/home/user/turtlebot3_ws/install/turtlebot3_navigation2:/home/user/turtlebot3_ws/install/turtlebot3_fake_node:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/turtlebot3_ws/install/turtlebot3_msgs:/home/user/turtlebot3_ws/install/turtlebot3_gazebo:/home/user/turtlebot3_ws/install/turtlebot3_description:/home/user/turtlebot3_ws/install/turtlebot3_cartographer:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/thymio_msgs:/home/user/ROS2swarm/install/thymio_description:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/ROS2swarm/install/communication_interfaces:/home/user/install/turtlebot3_teleop:/home/user/install/turtlebot3_navigation2:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/home/user/install/communication_interfaces:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/ros_components_description:/home/user/ros2_ws/install/husarion_office_gz:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/user/turtlebot3_ws/install/turtlebot3:/home/user/turtlebot3_ws/install/turtlebot3_simulations:/home/user/turtlebot3_ws/install/turtlebot3_bringup:/home/user/turtlebot3_ws/install/turtlebot3_node:/home/user/turtlebot3_ws/install/turtlebot3_navigation2:/home/user/turtlebot3_ws/install/turtlebot3_fake_node:/home/user/turtlebot3_ws/install/turtlebot3_msgs:/home/user/turtlebot3_ws/install/turtlebot3_gazebo:/home/user/turtlebot3_ws/install/turtlebot3_description:/home/user/turtlebot3_ws/install/turtlebot3_cartographer:/home/user/ROS2swarm/install/thymio_msgs:/home/user/ROS2swarm/install/thymio_description:/home/user/ROS2swarm/install/communication_interfaces:/home/user/install/turtlebot3_navigation2:/home/user/install/turtlebot3_description:/home/user/install/turtlebot3_cartographer:/home/user/install/communication_interfaces:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/ros_components_description:/home/user/ros2_ws/install/husarion_office_gz:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ROS2swarm/install:/home/user/install:/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install:/home/user/turtlebot3_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/turtlebot3_ws/build/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/user/turtlebot3_ws/build/turtlebot3_example:/home/user/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/user/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/user/ROS2swarm/build/thymio_driver:/home/user/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages:/home/user/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages:/home/user/ROS2swarm/build/ros2swarm:/home/user/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/user/ROS2swarm/build/launch_gazebo:/home/user/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages:/home/user/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/user/build/ros2swarm:/home/user/install/ros2swarm/lib/python3.8/site-packages:/home/user/build/launch_gazebo:/home/user/install/launch_gazebo/lib/python3.8/site-packages:/home/user/install/communication_interfaces/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '3'), ('NVM_CD_FLAGS', ''), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/user/ROS2swarm/install/thymio_msgs/lib:/home/user/ROS2swarm/install/communication_interfaces/lib:/home/user/install/communication_interfaces/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '675172'), ('SLOT_PREFIX', 'a04d2fe9-f09f-4f2b-9393-bdd6337d55f0'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox:/home/user/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:/home/user/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models'), ('SLOT_JENKINS_PORT', '25262'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[16.059541] (-) TimerEvent: {}
+[16.073247] (communication_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[16.093297] (communication_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target communication_interfaces__cpp\x1b[0m\n'}
+[16.127850] (communication_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[16.159652] (-) TimerEvent: {}
+[16.260674] (-) TimerEvent: {}
+[16.361032] (-) TimerEvent: {}
+[16.461456] (-) TimerEvent: {}
+[16.561879] (-) TimerEvent: {}
+[16.663143] (-) TimerEvent: {}
+[16.763627] (-) TimerEvent: {}
+[16.864011] (-) TimerEvent: {}
+[16.964309] (-) TimerEvent: {}
+[17.078966] (-) TimerEvent: {}
+[17.179390] (-) TimerEvent: {}
+[17.227275] (communication_interfaces) StdoutLine: {'line': b'[  2%] Built target communication_interfaces__cpp\n'}
+[17.279503] (-) TimerEvent: {}
+[17.308712] (communication_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[17.319465] (communication_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[17.323627] (communication_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[17.379625] (-) TimerEvent: {}
+[17.480071] (-) TimerEvent: {}
+[17.580490] (-) TimerEvent: {}
+[17.680985] (-) TimerEvent: {}
+[17.689704] (communication_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target communication_interfaces__rosidl_generator_c\x1b[0m\n'}
+[17.781109] (-) TimerEvent: {}
+[17.881494] (-) TimerEvent: {}
+[17.903131] (communication_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__rosidl_generator_c.dir/rosidl_generator_c/communication_interfaces/msg/detail/opinion_message__functions.c.o\x1b[0m\n'}
+[17.906781] (communication_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__rosidl_generator_c.dir/rosidl_generator_c/communication_interfaces/msg/detail/opinion_mac_message__functions.c.o\x1b[0m\n'}
+[17.981686] (communication_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__rosidl_generator_c.dir/rosidl_generator_c/communication_interfaces/msg/detail/string_message__functions.c.o\x1b[0m\n'}
+[17.982043] (-) TimerEvent: {}
+[17.982280] (communication_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__rosidl_generator_c.dir/rosidl_generator_c/communication_interfaces/msg/detail/double_message__functions.c.o\x1b[0m\n'}
+[17.990501] (communication_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__rosidl_generator_c.dir/rosidl_generator_c/communication_interfaces/msg/detail/int8_message__functions.c.o\x1b[0m\n'}
+[18.082169] (-) TimerEvent: {}
+[18.182581] (-) TimerEvent: {}
+[18.282934] (-) TimerEvent: {}
+[18.383400] (-) TimerEvent: {}
+[18.484394] (-) TimerEvent: {}
+[18.584926] (-) TimerEvent: {}
+[18.609382] (communication_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target communication_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[18.685073] (-) TimerEvent: {}
+[18.787047] (-) TimerEvent: {}
+[18.796056] (communication_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__rosidl_generator_c.dir/rosidl_generator_c/communication_interfaces/msg/detail/range_data__functions.c.o\x1b[0m\n'}
+[18.879808] (communication_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication_interfaces/msg/opinion_message__type_support.cpp.o\x1b[0m\n'}
+[18.887148] (-) TimerEvent: {}
+[18.889241] (communication_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication_interfaces/msg/opinion_mac_message__type_support.cpp.o\x1b[0m\n'}
+[18.889631] (communication_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__rosidl_generator_c.dir/rosidl_generator_c/communication_interfaces/msg/detail/float_array__functions.c.o\x1b[0m\n'}
+[18.919166] (communication_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication_interfaces/msg/string_message__type_support.cpp.o\x1b[0m\n'}
+[18.920508] (communication_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target communication_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[18.987299] (-) TimerEvent: {}
+[19.011108] (communication_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication_interfaces/msg/double_message__type_support.cpp.o\x1b[0m\n'}
+[19.014704] (communication_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/opinion_message__type_support.cpp.o\x1b[0m\n'}
+[19.016088] (communication_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/opinion_mac_message__type_support.cpp.o\x1b[0m\n'}
+[19.020616] (communication_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target communication_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[19.088263] (-) TimerEvent: {}
+[19.093116] (communication_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libcommunication_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[19.188378] (-) TimerEvent: {}
+[19.231323] (communication_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication_interfaces/msg/detail/dds_fastrtps/opinion_message__type_support.cpp.o\x1b[0m\n'}
+[19.288488] (-) TimerEvent: {}
+[19.388839] (-) TimerEvent: {}
+[19.489262] (-) TimerEvent: {}
+[19.589702] (-) TimerEvent: {}
+[19.638415] (communication_interfaces) StdoutLine: {'line': b'[ 25%] Built target communication_interfaces__rosidl_generator_c\n'}
+[19.651822] (communication_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication_interfaces/msg/detail/dds_fastrtps/opinion_mac_message__type_support.cpp.o\x1b[0m\n'}
+[19.690927] (-) TimerEvent: {}
+[19.791421] (-) TimerEvent: {}
+[19.892029] (-) TimerEvent: {}
+[19.992461] (-) TimerEvent: {}
+[20.092970] (-) TimerEvent: {}
+[20.193425] (-) TimerEvent: {}
+[20.293756] (-) TimerEvent: {}
+[20.394193] (-) TimerEvent: {}
+[20.494769] (-) TimerEvent: {}
+[20.595276] (-) TimerEvent: {}
+[20.696936] (-) TimerEvent: {}
+[20.797416] (-) TimerEvent: {}
+[20.897906] (-) TimerEvent: {}
+[20.998405] (-) TimerEvent: {}
+[21.098955] (-) TimerEvent: {}
+[21.199468] (-) TimerEvent: {}
+[21.302739] (-) TimerEvent: {}
+[21.403344] (-) TimerEvent: {}
+[21.503914] (-) TimerEvent: {}
+[21.604759] (-) TimerEvent: {}
+[21.705275] (-) TimerEvent: {}
+[21.805738] (-) TimerEvent: {}
+[21.899252] (communication_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication_interfaces/msg/int8_message__type_support.cpp.o\x1b[0m\n'}
+[21.906832] (-) TimerEvent: {}
+[22.010732] (-) TimerEvent: {}
+[22.016242] (communication_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/string_message__type_support.cpp.o\x1b[0m\n'}
+[22.085249] (communication_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication_interfaces/msg/range_data__type_support.cpp.o\x1b[0m\n'}
+[22.099124] (communication_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication_interfaces/msg/float_array__type_support.cpp.o\x1b[0m\n'}
+[22.110855] (-) TimerEvent: {}
+[22.211914] (-) TimerEvent: {}
+[22.312667] (-) TimerEvent: {}
+[22.393169] (communication_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication_interfaces/msg/detail/dds_fastrtps/string_message__type_support.cpp.o\x1b[0m\n'}
+[22.412862] (-) TimerEvent: {}
+[22.488158] (communication_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/double_message__type_support.cpp.o\x1b[0m\n'}
+[22.578961] (-) TimerEvent: {}
+[22.679455] (-) TimerEvent: {}
+[22.779923] (-) TimerEvent: {}
+[22.880429] (-) TimerEvent: {}
+[22.981738] (-) TimerEvent: {}
+[23.082930] (-) TimerEvent: {}
+[23.183480] (-) TimerEvent: {}
+[23.206929] (communication_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/int8_message__type_support.cpp.o\x1b[0m\n'}
+[23.283618] (-) TimerEvent: {}
+[23.385275] (-) TimerEvent: {}
+[23.486639] (-) TimerEvent: {}
+[23.587997] (-) TimerEvent: {}
+[23.689689] (-) TimerEvent: {}
+[23.779629] (communication_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication_interfaces/msg/detail/dds_fastrtps/double_message__type_support.cpp.o\x1b[0m\n'}
+[23.790023] (-) TimerEvent: {}
+[23.894182] (-) TimerEvent: {}
+[23.994658] (-) TimerEvent: {}
+[24.085320] (communication_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication_interfaces/msg/detail/dds_fastrtps/range_data__type_support.cpp.o\x1b[0m\n'}
+[24.094278] (communication_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication_interfaces/msg/detail/dds_fastrtps/int8_message__type_support.cpp.o\x1b[0m\n'}
+[24.097690] (-) TimerEvent: {}
+[24.198978] (-) TimerEvent: {}
+[24.295206] (communication_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libcommunication_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[24.302907] (-) TimerEvent: {}
+[24.307202] (communication_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/range_data__type_support.cpp.o\x1b[0m\n'}
+[24.404429] (-) TimerEvent: {}
+[24.504875] (-) TimerEvent: {}
+[24.605373] (-) TimerEvent: {}
+[24.606244] (communication_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/float_array__type_support.cpp.o\x1b[0m\n'}
+[24.684151] (communication_interfaces) StdoutLine: {'line': b'[ 43%] Built target communication_interfaces__rosidl_typesupport_cpp\n'}
+[24.711503] (-) TimerEvent: {}
+[24.791376] (communication_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[24.811620] (-) TimerEvent: {}
+[24.912030] (-) TimerEvent: {}
+[25.078965] (-) TimerEvent: {}
+[25.179689] (-) TimerEvent: {}
+[25.280150] (-) TimerEvent: {}
+[25.380623] (-) TimerEvent: {}
+[25.481053] (-) TimerEvent: {}
+[25.501480] (communication_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[25.509687] (communication_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication_interfaces/msg/detail/dds_fastrtps/float_array__type_support.cpp.o\x1b[0m\n'}
+[25.581159] (-) TimerEvent: {}
+[25.682969] (-) TimerEvent: {}
+[25.786550] (-) TimerEvent: {}
+[25.887530] (-) TimerEvent: {}
+[25.988387] (-) TimerEvent: {}
+[26.088873] (-) TimerEvent: {}
+[26.189716] (-) TimerEvent: {}
+[26.290161] (-) TimerEvent: {}
+[26.390931] (-) TimerEvent: {}
+[26.492445] (-) TimerEvent: {}
+[26.594087] (-) TimerEvent: {}
+[26.694869] (-) TimerEvent: {}
+[26.799828] (-) TimerEvent: {}
+[26.902743] (-) TimerEvent: {}
+[27.005740] (-) TimerEvent: {}
+[27.106637] (-) TimerEvent: {}
+[27.207690] (-) TimerEvent: {}
+[27.308142] (-) TimerEvent: {}
+[27.382717] (communication_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target communication_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[27.408305] (-) TimerEvent: {}
+[27.479173] (communication_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interfaces/msg/opinion_mac_message__type_support.cpp.o\x1b[0m\n'}
+[27.479551] (communication_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interfaces/msg/opinion_message__type_support.cpp.o\x1b[0m\n'}
+[27.508947] (-) TimerEvent: {}
+[27.581390] (communication_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interfaces/msg/string_message__type_support.cpp.o\x1b[0m\n'}
+[27.581699] (communication_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interfaces/msg/double_message__type_support.cpp.o\x1b[0m\n'}
+[27.601134] (communication_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interfaces/msg/int8_message__type_support.cpp.o\x1b[0m\n'}
+[27.609044] (-) TimerEvent: {}
+[27.613689] (communication_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libcommunication_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[27.699503] (communication_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interfaces/msg/range_data__type_support.cpp.o\x1b[0m\n'}
+[27.709213] (-) TimerEvent: {}
+[27.712056] (communication_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interfaces/msg/float_array__type_support.cpp.o\x1b[0m\n'}
+[27.809406] (-) TimerEvent: {}
+[27.909892] (-) TimerEvent: {}
+[27.924071] (communication_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcommunication_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[28.002939] (communication_interfaces) StdoutLine: {'line': b'[ 58%] Built target communication_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[28.010372] (-) TimerEvent: {}
+[28.101037] (communication_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target communication_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[28.105420] (communication_interfaces) StdoutLine: {'line': b'[ 58%] Built target communication_interfaces__rosidl_typesupport_c\n'}
+[28.110112] (-) TimerEvent: {}
+[28.139682] (communication_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication_interfaces/msg/detail/double_message__type_support.c.o\x1b[0m\n'}
+[28.140036] (communication_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication_interfaces/msg/detail/string_message__type_support.c.o\x1b[0m\n'}
+[28.179070] (communication_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication_interfaces/msg/detail/opinion_message__type_support.c.o\x1b[0m\n'}
+[28.185656] (communication_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication_interfaces/msg/detail/opinion_mac_message__type_support.c.o\x1b[0m\n'}
+[28.188500] (communication_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication_interfaces/msg/detail/int8_message__type_support.c.o\x1b[0m\n'}
+[28.198505] (communication_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication_interfaces/msg/detail/range_data__type_support.c.o\x1b[0m\n'}
+[28.201131] (communication_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication_interfaces/msg/detail/float_array__type_support.c.o\x1b[0m\n'}
+[28.210481] (-) TimerEvent: {}
+[28.311128] (-) TimerEvent: {}
+[28.399653] (communication_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libcommunication_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[28.411296] (-) TimerEvent: {}
+[28.466526] (communication_interfaces) StdoutLine: {'line': b'[ 68%] Built target communication_interfaces__rosidl_typesupport_introspection_c\n'}
+[28.468927] (communication_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libcommunication_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[28.512005] (-) TimerEvent: {}
+[28.612443] (-) TimerEvent: {}
+[28.712811] (-) TimerEvent: {}
+[28.813089] (-) TimerEvent: {}
+[28.913412] (-) TimerEvent: {}
+[29.013839] (-) TimerEvent: {}
+[29.114257] (-) TimerEvent: {}
+[29.214609] (-) TimerEvent: {}
+[29.225297] (communication_interfaces) StdoutLine: {'line': b'[ 69%] Built target communication_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[29.243290] (communication_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[29.314730] (-) TimerEvent: {}
+[29.415137] (-) TimerEvent: {}
+[29.515522] (-) TimerEvent: {}
+[29.615940] (-) TimerEvent: {}
+[29.716279] (-) TimerEvent: {}
+[29.816630] (-) TimerEvent: {}
+[29.917111] (-) TimerEvent: {}
+[29.957928] (communication_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target communication_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[30.010361] (communication_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication_interfaces/msg/detail/int8_message__type_support_c.cpp.o\x1b[0m\n'}
+[30.012066] (communication_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication_interfaces/msg/detail/double_message__type_support_c.cpp.o\x1b[0m\n'}
+[30.016361] (communication_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication_interfaces/msg/detail/opinion_mac_message__type_support_c.cpp.o\x1b[0m\n'}
+[30.017185] (-) TimerEvent: {}
+[30.022214] (communication_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication_interfaces/msg/detail/string_message__type_support_c.cpp.o\x1b[0m\n'}
+[30.022563] (communication_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication_interfaces/msg/detail/opinion_message__type_support_c.cpp.o\x1b[0m\n'}
+[30.024118] (communication_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication_interfaces/msg/detail/range_data__type_support_c.cpp.o\x1b[0m\n'}
+[30.029366] (communication_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication_interfaces/msg/detail/float_array__type_support_c.cpp.o\x1b[0m\n'}
+[30.117815] (-) TimerEvent: {}
+[30.278964] (-) TimerEvent: {}
+[30.379400] (-) TimerEvent: {}
+[30.479926] (-) TimerEvent: {}
+[30.580424] (-) TimerEvent: {}
+[30.681002] (-) TimerEvent: {}
+[30.781550] (-) TimerEvent: {}
+[30.882022] (-) TimerEvent: {}
+[30.982453] (-) TimerEvent: {}
+[31.083197] (-) TimerEvent: {}
+[31.183674] (-) TimerEvent: {}
+[31.284361] (-) TimerEvent: {}
+[31.384874] (-) TimerEvent: {}
+[31.487234] (-) TimerEvent: {}
+[31.587812] (-) TimerEvent: {}
+[31.688415] (-) TimerEvent: {}
+[31.789130] (-) TimerEvent: {}
+[31.889617] (-) TimerEvent: {}
+[31.990151] (-) TimerEvent: {}
+[32.091885] (-) TimerEvent: {}
+[32.192680] (-) TimerEvent: {}
+[32.293169] (-) TimerEvent: {}
+[32.393629] (-) TimerEvent: {}
+[32.399432] (communication_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libcommunication_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[32.493784] (-) TimerEvent: {}
+[32.513240] (communication_interfaces) StdoutLine: {'line': b'[ 81%] Built target communication_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[32.528424] (communication_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target communication_interfaces\x1b[0m\n'}
+[32.544221] (communication_interfaces) StdoutLine: {'line': b'[ 81%] Built target communication_interfaces\n'}
+[32.563469] (communication_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target communication_interfaces__py\x1b[0m\n'}
+[32.582706] (communication_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[32.593875] (-) TimerEvent: {}
+[32.694215] (-) TimerEvent: {}
+[32.794601] (-) TimerEvent: {}
+[32.895066] (-) TimerEvent: {}
+[32.995429] (-) TimerEvent: {}
+[33.095781] (-) TimerEvent: {}
+[33.196177] (-) TimerEvent: {}
+[33.296635] (-) TimerEvent: {}
+[33.397079] (-) TimerEvent: {}
+[33.497618] (-) TimerEvent: {}
+[33.598100] (-) TimerEvent: {}
+[33.698484] (-) TimerEvent: {}
+[33.798994] (-) TimerEvent: {}
+[33.899335] (-) TimerEvent: {}
+[33.999679] (-) TimerEvent: {}
+[34.100046] (-) TimerEvent: {}
+[34.201287] (-) TimerEvent: {}
+[34.301743] (-) TimerEvent: {}
+[34.402205] (-) TimerEvent: {}
+[34.502657] (-) TimerEvent: {}
+[34.603188] (-) TimerEvent: {}
+[34.703572] (-) TimerEvent: {}
+[34.803961] (-) TimerEvent: {}
+[34.904378] (-) TimerEvent: {}
+[35.004723] (-) TimerEvent: {}
+[35.105094] (-) TimerEvent: {}
+[35.205493] (-) TimerEvent: {}
+[35.305883] (-) TimerEvent: {}
+[35.406320] (-) TimerEvent: {}
+[35.506811] (-) TimerEvent: {}
+[35.607265] (-) TimerEvent: {}
+[35.707670] (-) TimerEvent: {}
+[35.807963] (-) TimerEvent: {}
+[35.908262] (-) TimerEvent: {}
+[36.008610] (-) TimerEvent: {}
+[36.108948] (-) TimerEvent: {}
+[36.209306] (-) TimerEvent: {}
+[36.309646] (-) TimerEvent: {}
+[36.410053] (-) TimerEvent: {}
+[36.510550] (-) TimerEvent: {}
+[36.611277] (-) TimerEvent: {}
+[36.711738] (-) TimerEvent: {}
+[36.812214] (-) TimerEvent: {}
+[36.827077] (communication_interfaces) StdoutLine: {'line': b'[ 82%] Built target communication_interfaces__py\n'}
+[36.843827] (communication_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target communication_interfaces__python\x1b[0m\n'}
+[36.912337] (-) TimerEvent: {}
+[37.012767] (-) TimerEvent: {}
+[37.055759] (communication_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__python.dir/rosidl_generator_py/communication_interfaces/msg/_opinion_mac_message_s.c.o\x1b[0m\n'}
+[37.058280] (communication_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__python.dir/rosidl_generator_py/communication_interfaces/msg/_opinion_message_s.c.o\x1b[0m\n'}
+[37.058726] (communication_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__python.dir/rosidl_generator_py/communication_interfaces/msg/_double_message_s.c.o\x1b[0m\n'}
+[37.072776] (communication_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__python.dir/rosidl_generator_py/communication_interfaces/msg/_string_message_s.c.o\x1b[0m\n'}
+[37.073097] (communication_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__python.dir/rosidl_generator_py/communication_interfaces/msg/_float_array_s.c.o\x1b[0m\n'}
+[37.077805] (communication_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__python.dir/rosidl_generator_py/communication_interfaces/msg/_range_data_s.c.o\x1b[0m\n'}
+[37.097065] (communication_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__python.dir/rosidl_generator_py/communication_interfaces/msg/_int8_message_s.c.o\x1b[0m\n'}
+[37.112899] (-) TimerEvent: {}
+[37.214235] (-) TimerEvent: {}
+[37.314741] (-) TimerEvent: {}
+[37.415257] (-) TimerEvent: {}
+[37.515713] (-) TimerEvent: {}
+[37.616138] (-) TimerEvent: {}
+[37.716648] (-) TimerEvent: {}
+[37.817077] (-) TimerEvent: {}
+[37.919158] (-) TimerEvent: {}
+[38.020160] (-) TimerEvent: {}
+[38.057691] (communication_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/communication_interfaces/libcommunication_interfaces__python.so\x1b[0m\n'}
+[38.120325] (-) TimerEvent: {}
+[38.136394] (communication_interfaces) StdoutLine: {'line': b'[ 92%] Built target communication_interfaces__python\n'}
+[38.156123] (communication_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target communication_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[38.157468] (communication_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target communication_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[38.158459] (communication_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target communication_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[38.198694] (communication_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/communication_interfaces/_communication_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[38.199142] (communication_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/communication_interfaces/_communication_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[38.213493] (communication_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/communication_interfaces/_communication_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[38.220633] (-) TimerEvent: {}
+[38.321200] (-) TimerEvent: {}
+[38.422465] (-) TimerEvent: {}
+[38.427140] (communication_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/communication_interfaces/communication_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[38.499277] (communication_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/communication_interfaces/communication_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[38.512328] (communication_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/communication_interfaces/communication_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[38.522632] (-) TimerEvent: {}
+[38.532033] (communication_interfaces) StdoutLine: {'line': b'[100%] Built target communication_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[38.600387] (communication_interfaces) StdoutLine: {'line': b'[100%] Built target communication_interfaces__rosidl_typesupport_c__pyext\n'}
+[38.610826] (communication_interfaces) StdoutLine: {'line': b'[100%] Built target communication_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[38.622699] (-) TimerEvent: {}
+[38.633479] (communication_interfaces) CommandEnded: {'returncode': 0}
+[38.722885] (-) TimerEvent: {}
+[38.823692] (-) TimerEvent: {}
+[38.924099] (-) TimerEvent: {}
+[39.024435] (-) TimerEvent: {}
+[39.044502] (communication_interfaces) JobProgress: {'identifier': 'communication_interfaces', 'progress': 'install'}
+[39.063456] (communication_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ROS2swarm/build/communication_interfaces'], 'cwd': '/home/user/ROS2swarm/build/communication_interfaces', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('PWD', '/home/user/ROS2swarm/build/communication_interfaces'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_DOMAIN_ID', '30'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/user/turtlebot3_ws/install/turtlebot3:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_simulations:/home/user/turtlebot3_ws/install/turtlebot3_bringup:/home/user/turtlebot3_ws/install/turtlebot3_node:/home/user/turtlebot3_ws/install/turtlebot3_navigation2:/home/user/turtlebot3_ws/install/turtlebot3_fake_node:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/turtlebot3_ws/install/turtlebot3_msgs:/home/user/turtlebot3_ws/install/turtlebot3_gazebo:/home/user/turtlebot3_ws/install/turtlebot3_description:/home/user/turtlebot3_ws/install/turtlebot3_cartographer:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/thymio_msgs:/home/user/ROS2swarm/install/thymio_description:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/ROS2swarm/install/communication_interfaces:/home/user/install/turtlebot3_teleop:/home/user/install/turtlebot3_navigation2:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/home/user/install/communication_interfaces:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/ros_components_description:/home/user/ros2_ws/install/husarion_office_gz:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/user/turtlebot3_ws/install/turtlebot3:/home/user/turtlebot3_ws/install/turtlebot3_simulations:/home/user/turtlebot3_ws/install/turtlebot3_bringup:/home/user/turtlebot3_ws/install/turtlebot3_node:/home/user/turtlebot3_ws/install/turtlebot3_navigation2:/home/user/turtlebot3_ws/install/turtlebot3_fake_node:/home/user/turtlebot3_ws/install/turtlebot3_msgs:/home/user/turtlebot3_ws/install/turtlebot3_gazebo:/home/user/turtlebot3_ws/install/turtlebot3_description:/home/user/turtlebot3_ws/install/turtlebot3_cartographer:/home/user/ROS2swarm/install/thymio_msgs:/home/user/ROS2swarm/install/thymio_description:/home/user/ROS2swarm/install/communication_interfaces:/home/user/install/turtlebot3_navigation2:/home/user/install/turtlebot3_description:/home/user/install/turtlebot3_cartographer:/home/user/install/communication_interfaces:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/rosbot_description:/home/user/ros2_ws/install/ros_components_description:/home/user/ros2_ws/install/husarion_office_gz:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ROS2swarm/install:/home/user/install:/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install:/home/user/turtlebot3_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/turtlebot3_ws/build/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/user/turtlebot3_ws/build/turtlebot3_example:/home/user/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/user/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/user/ROS2swarm/build/thymio_driver:/home/user/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages:/home/user/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages:/home/user/ROS2swarm/build/ros2swarm:/home/user/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/user/ROS2swarm/build/launch_gazebo:/home/user/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages:/home/user/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/user/build/ros2swarm:/home/user/install/ros2swarm/lib/python3.8/site-packages:/home/user/build/launch_gazebo:/home/user/install/launch_gazebo/lib/python3.8/site-packages:/home/user/install/communication_interfaces/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '3'), ('NVM_CD_FLAGS', ''), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/user/ROS2swarm/install/thymio_msgs/lib:/home/user/ROS2swarm/install/communication_interfaces/lib:/home/user/install/communication_interfaces/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '675172'), ('SLOT_PREFIX', 'a04d2fe9-f09f-4f2b-9393-bdd6337d55f0'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox:/home/user/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:/home/user/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models'), ('SLOT_JENKINS_PORT', '25262'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[39.076740] (communication_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[39.077816] (communication_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[39.078555] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/ament_index/resource_index/rosidl_interfaces/communication_interfaces\n'}
+[39.080199] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__functions.h\n'}
+[39.080616] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__struct.h\n'}
+[39.081031] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__type_support.h\n'}
+[39.081434] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__functions.h\n'}
+[39.081834] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__struct.h\n'}
+[39.082333] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__type_support.h\n'}
+[39.082653] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__functions.h\n'}
+[39.083088] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__struct.h\n'}
+[39.083517] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__type_support.h\n'}
+[39.083919] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__functions.h\n'}
+[39.084370] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__struct.h\n'}
+[39.084750] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__type_support.h\n'}
+[39.085154] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__functions.h\n'}
+[39.085579] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__struct.h\n'}
+[39.085945] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__type_support.h\n'}
+[39.086368] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__functions.h\n'}
+[39.086788] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__struct.h\n'}
+[39.087215] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__type_support.h\n'}
+[39.087680] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__functions.h\n'}
+[39.088115] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__struct.h\n'}
+[39.088524] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__type_support.h\n'}
+[39.089001] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/double_message.h\n'}
+[39.089389] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/float_array.h\n'}
+[39.089930] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/int8_message.h\n'}
+[39.090237] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/opinion_mac_message.h\n'}
+[39.090670] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/opinion_message.h\n'}
+[39.091095] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/range_data.h\n'}
+[39.091424] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[39.091795] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/string_message.h\n'}
+[39.092419] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/environment/library_path.sh\n'}
+[39.092990] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/environment/library_path.dsv\n'}
+[39.094499] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__rosidl_typesupport_fastrtps_c.h\n'}
+[39.094915] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__rosidl_typesupport_fastrtps_c.h\n'}
+[39.095323] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__rosidl_typesupport_fastrtps_c.h\n'}
+[39.095753] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__rosidl_typesupport_fastrtps_c.h\n'}
+[39.096159] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__rosidl_typesupport_fastrtps_c.h\n'}
+[39.096676] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__rosidl_typesupport_fastrtps_c.h\n'}
+[39.096991] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__rosidl_typesupport_fastrtps_c.h\n'}
+[39.097526] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[39.098196] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[39.100060] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[39.100494] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[39.100877] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[39.101316] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[39.101898] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[39.102212] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[39.102527] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[39.102941] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[39.103871] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[39.104814] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__rosidl_typesupport_introspection_c.h\n'}
+[39.105241] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__rosidl_typesupport_introspection_c.h\n'}
+[39.105629] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__rosidl_typesupport_introspection_c.h\n'}
+[39.106053] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__rosidl_typesupport_introspection_c.h\n'}
+[39.106449] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__rosidl_typesupport_introspection_c.h\n'}
+[39.106837] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__rosidl_typesupport_introspection_c.h\n'}
+[39.107302] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__rosidl_typesupport_introspection_c.h\n'}
+[39.107777] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[39.109327] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__builder.hpp\n'}
+[39.109651] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__struct.hpp\n'}
+[39.110067] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__traits.hpp\n'}
+[39.110412] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__builder.hpp\n'}
+[39.110728] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__struct.hpp\n'}
+[39.111047] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__traits.hpp\n'}
+[39.111309] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__builder.hpp\n'}
+[39.111626] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__struct.hpp\n'}
+[39.112078] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__traits.hpp\n'}
+[39.112420] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__builder.hpp\n'}
+[39.112825] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__struct.hpp\n'}
+[39.113149] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__traits.hpp\n'}
+[39.113515] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__builder.hpp\n'}
+[39.113860] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__struct.hpp\n'}
+[39.114188] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__traits.hpp\n'}
+[39.114574] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__builder.hpp\n'}
+[39.114802] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__struct.hpp\n'}
+[39.115099] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__traits.hpp\n'}
+[39.115469] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__builder.hpp\n'}
+[39.115866] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__struct.hpp\n'}
+[39.116289] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__traits.hpp\n'}
+[39.116591] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/double_message.hpp\n'}
+[39.116899] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/float_array.hpp\n'}
+[39.117251] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/int8_message.hpp\n'}
+[39.117549] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/opinion_mac_message.hpp\n'}
+[39.117920] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/opinion_message.hpp\n'}
+[39.118241] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/range_data.hpp\n'}
+[39.118578] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/string_message.hpp\n'}
+[39.119524] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.119923] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.120268] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.120663] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.120974] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.121310] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.121624] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.122016] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/environment/pythonpath.sh\n'}
+[39.122409] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/environment/pythonpath.dsv\n'}
+[39.122779] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/__init__.py\n'}
+[39.123630] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/__init__.py\n'}
+[39.123987] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/_double_message.py\n'}
+[39.124300] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/_float_array.py\n'}
+[39.124456] (-) TimerEvent: {}
+[39.124786] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/_int8_message.py\n'}
+[39.125111] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/_opinion_mac_message.py\n'}
+[39.125390] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/_opinion_message.py\n'}
+[39.125770] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/_range_data.py\n'}
+[39.126084] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/_string_message.py\n'}
+[39.126708] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/communication_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[39.127583] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/communication_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[39.128261] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/communication_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[39.128942] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__python.so\n'}
+[39.129562] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/OpinionMessage.idl\n'}
+[39.129943] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/OpinionMACMessage.idl\n'}
+[39.130431] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/StringMessage.idl\n'}
+[39.130921] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/DoubleMessage.idl\n'}
+[39.131395] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/Int8Message.idl\n'}
+[39.131815] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/RangeData.idl\n'}
+[39.132266] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/FloatArray.idl\n'}
+[39.132765] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/OpinionMessage.msg\n'}
+[39.133217] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/OpinionMACMessage.msg\n'}
+[39.133647] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/StringMessage.msg\n'}
+[39.134097] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/DoubleMessage.msg\n'}
+[39.134485] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/Int8Message.msg\n'}
+[39.134995] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/RangeData.msg\n'}
+[39.135512] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/FloatArray.msg\n'}
+[39.136030] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/ament_index/resource_index/package_run_dependencies/communication_interfaces\n'}
+[39.136544] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/ament_index/resource_index/parent_prefix_path/communication_interfaces\n'}
+[39.137063] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/environment/ament_prefix_path.sh\n'}
+[39.137540] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/environment/ament_prefix_path.dsv\n'}
+[39.138004] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/environment/path.sh\n'}
+[39.138340] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/environment/path.dsv\n'}
+[39.138736] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/local_setup.bash\n'}
+[39.139183] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/local_setup.sh\n'}
+[39.139575] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/local_setup.zsh\n'}
+[39.140023] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/local_setup.dsv\n'}
+[39.140331] (communication_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/package.dsv\n'}
+[39.156760] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/ament_index/resource_index/packages/communication_interfaces\n'}
+[39.157316] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[39.158045] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[39.158465] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[39.159306] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[39.159693] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[39.160097] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[39.160418] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[39.160859] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfacesConfig.cmake\n'}
+[39.161175] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfacesConfig-version.cmake\n'}
+[39.161481] (communication_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/package.xml\n'}
+[39.169534] (communication_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_generator_c.so\n'}
+[39.170447] (communication_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_generator_c.so" to ""\n'}
+[39.172710] (communication_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[39.173481] (communication_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[39.180675] (communication_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_c.so\n'}
+[39.181324] (communication_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[39.189842] (communication_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[39.190089] (communication_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[39.192498] (communication_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_cpp.so\n'}
+[39.193281] (communication_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[39.224562] (-) TimerEvent: {}
+[39.265165] (communication_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/__init__.py'...\n"}
+[39.271020] (communication_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_generator_cExport.cmake\n'}
+[39.271375] (communication_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[39.273495] (communication_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[39.273923] (communication_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[39.274959] (communication_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[39.275255] (communication_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[39.276252] (communication_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_generator_cppExport.cmake\n'}
+[39.277383] (communication_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[39.277898] (communication_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[39.279107] (communication_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[39.279706] (communication_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[39.282818] (communication_interfaces) CommandEnded: {'returncode': 0}
+[39.325121] (-) TimerEvent: {}
+[39.427106] (-) TimerEvent: {}
+[39.527497] (-) TimerEvent: {}
+[39.627899] (-) TimerEvent: {}
+[39.729672] (-) TimerEvent: {}
+[39.749037] (communication_interfaces) JobEnded: {'identifier': 'communication_interfaces', 'rc': 0}
+[39.750833] (-) EventReactorShutdown: {}

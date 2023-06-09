@@ -1,0 +1,34 @@
+running develop
+running egg_info
+creating thymio_driver.egg-info
+writing thymio_driver.egg-info/PKG-INFO
+writing dependency_links to thymio_driver.egg-info/dependency_links.txt
+writing entry points to thymio_driver.egg-info/entry_points.txt
+writing requirements to thymio_driver.egg-info/requires.txt
+writing top-level names to thymio_driver.egg-info/top_level.txt
+writing manifest file 'thymio_driver.egg-info/SOURCES.txt'
+reading manifest file 'thymio_driver.egg-info/SOURCES.txt'
+writing manifest file 'thymio_driver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/user/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages/thymio-driver.egg-link (link to .)
+Installing calibrate_motors script to /home/user/ROS2swarm/install/thymio_driver/lib/thymio_driver
+Installing follow_square script to /home/user/ROS2swarm/install/thymio_driver/lib/thymio_driver
+Installing multi_thymio_driver script to /home/user/ROS2swarm/install/thymio_driver/lib/thymio_driver
+Installing thymio_driver script to /home/user/ROS2swarm/install/thymio_driver/lib/thymio_driver
+
+Installed /home/user/ROS2swarm/build/thymio_driver
+running install_data
+creating /home/user/ROS2swarm/install/thymio_driver/share/ament_index
+creating /home/user/ROS2swarm/install/thymio_driver/share/ament_index/resource_index
+creating /home/user/ROS2swarm/install/thymio_driver/share/ament_index/resource_index/packages
+copying resource/thymio_driver -> /home/user/ROS2swarm/install/thymio_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/ROS2swarm/install/thymio_driver/share/thymio_driver
+creating /home/user/ROS2swarm/install/thymio_driver/share/thymio_driver/aseba
+copying aseba/thymio_ros_sim.aesl -> /home/user/ROS2swarm/install/thymio_driver/share/thymio_driver/aseba
+copying aseba/multi_thymio_ros.aesl -> /home/user/ROS2swarm/install/thymio_driver/share/thymio_driver/aseba
+copying aseba/multi_thymio_ros_sim.aesl -> /home/user/ROS2swarm/install/thymio_driver/share/thymio_driver/aseba
+copying aseba/thymio_ros.aesl -> /home/user/ROS2swarm/install/thymio_driver/share/thymio_driver/aseba
+creating /home/user/ROS2swarm/install/thymio_driver/share/thymio_driver/launch
+copying launch/main.launch -> /home/user/ROS2swarm/install/thymio_driver/share/thymio_driver/launch
+copying launch/asebaros.launch -> /home/user/ROS2swarm/install/thymio_driver/share/thymio_driver/launch
+creating /home/user/ROS2swarm/install/thymio_driver/share/thymio_driver/calibration

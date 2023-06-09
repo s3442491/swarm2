@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from communication_interfaces/msg/RangeData.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module communication_interfaces {
+  module msg {
+    struct RangeData {
+      std_msgs::msg::Header header;
+
+      sequence<float> ranges;
+
+      sequence<double> angles;
+    };
+  };
+};

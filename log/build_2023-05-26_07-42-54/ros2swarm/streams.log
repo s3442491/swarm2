@@ -1,0 +1,165 @@
+[1.576s] Invoking command in '/home/user/ROS2swarm/build/ros2swarm': PYTHONPATH=/home/user/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/ROS2swarm/install/ros2swarm --editable --build-directory /home/user/ROS2swarm/build/ros2swarm/build --no-deps install_data --install-dir /home/user/ROS2swarm/install/ros2swarm
+[3.105s] running develop
+[4.022s] running egg_info
+[4.023s] creating ros2swarm.egg-info
+[4.023s] writing ros2swarm.egg-info/PKG-INFO
+[4.023s] writing dependency_links to ros2swarm.egg-info/dependency_links.txt
+[4.024s] writing entry points to ros2swarm.egg-info/entry_points.txt
+[4.024s] writing requirements to ros2swarm.egg-info/requires.txt
+[4.024s] writing top-level names to ros2swarm.egg-info/top_level.txt
+[4.027s] writing manifest file 'ros2swarm.egg-info/SOURCES.txt'
+[4.145s] reading manifest file 'ros2swarm.egg-info/SOURCES.txt'
+[4.148s] writing manifest file 'ros2swarm.egg-info/SOURCES.txt'
+[4.398s] running build_ext
+[4.399s] Creating /home/user/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages/ros2swarm.egg-link (link to .)
+[4.400s] Installing aggregation_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[4.401s] Installing attraction_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[4.401s] Installing attraction_pattern2 script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[4.406s] Installing demo_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[4.406s] Installing discussed_dispersion_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[4.406s] Installing dispersion_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[4.411s] Installing drive_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[4.411s] Installing hardware_protection_layer script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[4.412s] Installing ir_layer script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[4.412s] Installing ir_tf_layer script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[4.413s] Installing lidar_layer script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[4.413s] Installing magnetometer_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[4.414s] Installing majority_rule_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[4.415s] Installing minimalist_flocking_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[4.421s] Installing random_walk_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[4.422s] Installing rat_search_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[4.423s] Installing voter_model_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[4.423s] Installing voter_model_with_limiter_pattern script to /home/user/ROS2swarm/install/ros2swarm/lib/ros2swarm
+[4.424s] 
+[4.424s] Installed /home/user/ROS2swarm/build/ros2swarm
+[4.424s] running install_data
+[4.424s] creating /home/user/ROS2swarm/install/ros2swarm/share/ament_index
+[4.425s] creating /home/user/ROS2swarm/install/ros2swarm/share/ament_index/resource_index
+[4.425s] creating /home/user/ROS2swarm/install/ros2swarm/share/ament_index/resource_index/packages
+[4.425s] copying resource/ros2swarm -> /home/user/ROS2swarm/install/ros2swarm/share/ament_index/resource_index/packages
+[4.425s] copying package.xml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm
+[4.426s] copying launch/husarion_bringup.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm
+[4.426s] copying launch/turtlebot3_bringup.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm
+[4.426s] copying launch/turtlebot3_state_publisher.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm
+[4.426s] copying launch/bringup_patterns.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm
+[4.426s] copying launch/hlds_laser.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm
+[4.427s] copying launch/bringup_robot.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm
+[4.427s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch
+[4.427s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern
+[4.427s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/movement_pattern
+[4.428s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/movement_pattern/basic
+[4.428s] copying launch/pattern/movement_pattern/basic/dispersion_pattern.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/movement_pattern/basic
+[4.428s] copying launch/pattern/movement_pattern/basic/aggregation_pattern.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/movement_pattern/basic
+[4.428s] copying launch/pattern/movement_pattern/basic/attraction_pattern.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/movement_pattern/basic
+[4.429s] copying launch/pattern/movement_pattern/basic/rat_search_pattern.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/movement_pattern/basic
+[4.429s] copying launch/pattern/movement_pattern/basic/random_walk_pattern.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/movement_pattern/basic
+[4.429s] copying launch/pattern/movement_pattern/basic/drive_pattern.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/movement_pattern/basic
+[4.429s] copying launch/pattern/movement_pattern/basic/magnetometer_pattern.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/movement_pattern/basic
+[4.429s] copying launch/pattern/movement_pattern/basic/minimalist_flocking_pattern.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/movement_pattern/basic
+[4.434s] copying launch/pattern/movement_pattern/basic/attraction_pattern2.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/movement_pattern/basic
+[4.434s] copying launch/pattern/movement_pattern/basic/demo_pattern.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/movement_pattern/basic
+[4.436s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/movement_pattern/combined
+[4.436s] copying launch/pattern/movement_pattern/combined/discussed_dispersion_pattern.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/movement_pattern/combined
+[4.437s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/voting_pattern
+[4.438s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/voting_pattern/basic
+[4.438s] copying launch/pattern/voting_pattern/basic/majority_rule_pattern.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/voting_pattern/basic
+[4.438s] copying launch/pattern/voting_pattern/basic/voter_model_pattern.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/voting_pattern/basic
+[4.452s] copying launch/pattern/voting_pattern/basic/voter_model_with_limiter_pattern.launch.py -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/launch/pattern/voting_pattern/basic
+[4.452s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config
+[4.452s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger
+[4.453s] copying config/burger/sensor_specification.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger
+[4.453s] copying config/burger/hardware_protection_layer.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger
+[4.453s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger/movement_pattern
+[4.453s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger/movement_pattern/basic
+[4.454s] copying config/burger/movement_pattern/basic/aggregation_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger/movement_pattern/basic
+[4.454s] copying config/burger/movement_pattern/basic/dispersion_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger/movement_pattern/basic
+[4.454s] copying config/burger/movement_pattern/basic/rat_search_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger/movement_pattern/basic
+[4.455s] copying config/burger/movement_pattern/basic/minimalist_flocking_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger/movement_pattern/basic
+[4.455s] copying config/burger/movement_pattern/basic/attraction_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger/movement_pattern/basic
+[4.455s] copying config/burger/movement_pattern/basic/attraction_pattern2.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger/movement_pattern/basic
+[4.456s] copying config/burger/movement_pattern/basic/magnetometer_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger/movement_pattern/basic
+[4.456s] copying config/burger/movement_pattern/basic/random_walk_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger/movement_pattern/basic
+[4.456s] copying config/burger/movement_pattern/basic/drive_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger/movement_pattern/basic
+[4.456s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger/movement_pattern/combined
+[4.456s] copying config/burger/movement_pattern/combined/discussed_dispersion_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger/movement_pattern/combined
+[4.457s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger/voting_pattern
+[4.457s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger/voting_pattern/basic
+[4.457s] copying config/burger/voting_pattern/basic/voter_model_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger/voting_pattern/basic
+[4.457s] copying config/burger/voting_pattern/basic/majority_rule_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger/voting_pattern/basic
+[4.458s] copying config/burger/voting_pattern/basic/voter_model_with_limiter_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/burger/voting_pattern/basic
+[4.458s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi
+[4.493s] copying config/waffle_pi/sensor_specification.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi
+[4.493s] copying config/waffle_pi/hardware_protection_layer.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi
+[4.498s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/movement_pattern
+[4.498s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/movement_pattern/basic
+[4.498s] copying config/waffle_pi/movement_pattern/basic/aggregation_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/movement_pattern/basic
+[4.498s] copying config/waffle_pi/movement_pattern/basic/dispersion_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/movement_pattern/basic
+[4.498s] copying config/waffle_pi/movement_pattern/basic/demo_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/movement_pattern/basic
+[4.498s] copying config/waffle_pi/movement_pattern/basic/rat_search_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/movement_pattern/basic
+[4.498s] copying config/waffle_pi/movement_pattern/basic/minimalist_flocking_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/movement_pattern/basic
+[4.499s] copying config/waffle_pi/movement_pattern/basic/attraction_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/movement_pattern/basic
+[4.499s] copying config/waffle_pi/movement_pattern/basic/attraction_pattern2.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/movement_pattern/basic
+[4.499s] copying config/waffle_pi/movement_pattern/basic/magnetometer_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/movement_pattern/basic
+[4.499s] copying config/waffle_pi/movement_pattern/basic/random_walk_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/movement_pattern/basic
+[4.499s] copying config/waffle_pi/movement_pattern/basic/drive_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/movement_pattern/basic
+[4.500s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/movement_pattern/combined
+[4.500s] copying config/waffle_pi/movement_pattern/combined/discussed_dispersion_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/movement_pattern/combined
+[4.500s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/voting_pattern
+[4.500s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/voting_pattern/basic
+[4.501s] copying config/waffle_pi/voting_pattern/basic/voter_model_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/voting_pattern/basic
+[4.501s] copying config/waffle_pi/voting_pattern/basic/majority_rule_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/voting_pattern/basic
+[4.502s] copying config/waffle_pi/voting_pattern/basic/voter_model_with_limiter_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/waffle_pi/voting_pattern/basic
+[4.502s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal
+[4.502s] copying config/jackal/hardware_protection_layer.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal
+[4.502s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal/movement_pattern
+[4.503s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal/movement_pattern/basic
+[4.503s] copying config/jackal/movement_pattern/basic/aggregation_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal/movement_pattern/basic
+[4.503s] copying config/jackal/movement_pattern/basic/dispersion_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal/movement_pattern/basic
+[4.505s] copying config/jackal/movement_pattern/basic/rat_search_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal/movement_pattern/basic
+[4.505s] copying config/jackal/movement_pattern/basic/minimalist_flocking_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal/movement_pattern/basic
+[4.505s] copying config/jackal/movement_pattern/basic/attraction_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal/movement_pattern/basic
+[4.506s] copying config/jackal/movement_pattern/basic/attraction_pattern2.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal/movement_pattern/basic
+[4.506s] copying config/jackal/movement_pattern/basic/magnetometer_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal/movement_pattern/basic
+[4.506s] copying config/jackal/movement_pattern/basic/random_walk_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal/movement_pattern/basic
+[4.506s] copying config/jackal/movement_pattern/basic/drive_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal/movement_pattern/basic
+[4.507s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal/movement_pattern/combined
+[4.507s] copying config/jackal/movement_pattern/combined/discussed_dispersion_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal/movement_pattern/combined
+[4.507s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal/voting_pattern
+[4.507s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal/voting_pattern/basic
+[4.507s] copying config/jackal/voting_pattern/basic/voter_model_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal/voting_pattern/basic
+[4.512s] copying config/jackal/voting_pattern/basic/majority_rule_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal/voting_pattern/basic
+[4.512s] copying config/jackal/voting_pattern/basic/voter_model_with_limiter_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/jackal/voting_pattern/basic
+[4.512s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio
+[4.512s] copying config/thymio/sensor_specification.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio
+[4.512s] copying config/thymio/hardware_protection_layer.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio
+[4.512s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio/movement_pattern
+[4.513s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio/movement_pattern/basic
+[4.513s] copying config/thymio/movement_pattern/basic/aggregation_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio/movement_pattern/basic
+[4.513s] copying config/thymio/movement_pattern/basic/line_avoidance_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio/movement_pattern/basic
+[4.513s] copying config/thymio/movement_pattern/basic/dispersion_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio/movement_pattern/basic
+[4.513s] copying config/thymio/movement_pattern/basic/rat_search_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio/movement_pattern/basic
+[4.513s] copying config/thymio/movement_pattern/basic/minimalist_flocking_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio/movement_pattern/basic
+[4.514s] copying config/thymio/movement_pattern/basic/attraction_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio/movement_pattern/basic
+[4.514s] copying config/thymio/movement_pattern/basic/attraction_pattern2.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio/movement_pattern/basic
+[4.514s] copying config/thymio/movement_pattern/basic/magnetometer_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio/movement_pattern/basic
+[4.514s] copying config/thymio/movement_pattern/basic/random_walk_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio/movement_pattern/basic
+[4.514s] copying config/thymio/movement_pattern/basic/beeclust_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio/movement_pattern/basic
+[4.514s] copying config/thymio/movement_pattern/basic/drive_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio/movement_pattern/basic
+[4.515s] creating /home/user/ROS2swarm/install/ros2swarm/thymio
+[4.515s] creating /home/user/ROS2swarm/install/ros2swarm/thymio/ros2swarm
+[4.515s] creating /home/user/ROS2swarm/install/ros2swarm/thymio/ros2swarm/config
+[4.515s] creating /home/user/ROS2swarm/install/ros2swarm/thymio/ros2swarm/config/thymio
+[4.515s] creating /home/user/ROS2swarm/install/ros2swarm/thymio/ros2swarm/config/thymio/movement_pattern
+[4.515s] creating /home/user/ROS2swarm/install/ros2swarm/thymio/ros2swarm/config/thymio/movement_pattern/combined
+[4.515s] copying config/thymio/movement_pattern/combined/flocking_pattern2.yaml -> /home/user/ROS2swarm/install/ros2swarm/thymio/ros2swarm/config/thymio/movement_pattern/combined
+[4.516s] copying config/thymio/movement_pattern/combined/discussed_dispersion_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/thymio/ros2swarm/config/thymio/movement_pattern/combined
+[4.516s] copying config/thymio/movement_pattern/combined/flocking_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/thymio/ros2swarm/config/thymio/movement_pattern/combined
+[4.516s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio/voting_pattern
+[4.516s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio/voting_pattern/basic
+[4.516s] copying config/thymio/voting_pattern/basic/voter_model_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio/voting_pattern/basic
+[4.516s] copying config/thymio/voting_pattern/basic/majority_rule_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio/voting_pattern/basic
+[4.516s] copying config/thymio/voting_pattern/basic/voter_model_with_limiter_pattern.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/config/thymio/voting_pattern/basic
+[4.516s] creating /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/param
+[4.517s] copying param/burger.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/param
+[4.517s] copying param/waffle_pi.yaml -> /home/user/ROS2swarm/install/ros2swarm/share/ros2swarm/param
+[4.611s] Invoked command in '/home/user/ROS2swarm/build/ros2swarm' returned '0': PYTHONPATH=/home/user/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/ROS2swarm/install/ros2swarm --editable --build-directory /home/user/ROS2swarm/build/ros2swarm/build --no-deps install_data --install-dir /home/user/ROS2swarm/install/ros2swarm

@@ -1,0 +1,1 @@
+/home/user/ROS2swarm/build/thymio_msgs/ament_cmake_core/thymio_msgsConfig.cmake

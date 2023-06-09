@@ -1,0 +1,324 @@
+[0.065s] Invoking command in '/home/user/ROS2swarm/build/communication_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/ROS2swarm/src/communication_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ROS2swarm/install/communication_interfaces
+[6.077s] -- The C compiler identification is GNU 9.3.0
+[10.277s] -- The CXX compiler identification is GNU 9.3.0
+[10.387s] -- Check for working C compiler: /usr/bin/cc
+[10.505s] -- Check for working C compiler: /usr/bin/cc -- works
+[10.508s] -- Detecting C compiler ABI info
+[10.614s] -- Detecting C compiler ABI info - done
+[10.632s] -- Detecting C compile features
+[10.740s] -- Detecting C compile features - done
+[10.746s] -- Check for working CXX compiler: /usr/bin/c++
+[10.860s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[10.862s] -- Detecting CXX compiler ABI info
+[10.978s] -- Detecting CXX compiler ABI info - done
+[10.997s] -- Detecting CXX compile features
+[10.998s] -- Detecting CXX compile features - done
+[11.009s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[11.166s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[11.166s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.598s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[11.888s] -- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)
+[12.038s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.072s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[13.060s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[13.145s] -- Found FastRTPS: /opt/ros/foxy/include  
+[13.417s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.586s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[13.674s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[14.028s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[14.458s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.586s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.638s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[14.647s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[14.792s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[14.792s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.792s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[14.793s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[14.838s] -- Found PythonExtra: .so  
+[14.987s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[15.170s] -- Added test 'copyright' to check source files copyright and LICENSE
+[15.176s] -- Added test 'lint_cmake' to check CMake code style
+[15.187s] -- Added test 'xmllint' to check XML markup files
+[15.201s] -- Configuring done
+[15.964s] -- Generating done
+[15.968s] -- Build files have been written to: /home/user/ROS2swarm/build/communication_interfaces
+[15.982s] Invoked command in '/home/user/ROS2swarm/build/communication_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/ROS2swarm/src/communication_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ROS2swarm/install/communication_interfaces
+[15.987s] Invoking command in '/home/user/ROS2swarm/build/communication_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ROS2swarm/build/communication_interfaces -- -j8 -l8
+[16.072s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[16.092s] [35m[1mScanning dependencies of target communication_interfaces__cpp[0m
+[16.127s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[17.226s] [  2%] Built target communication_interfaces__cpp
+[17.308s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[17.318s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[17.323s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[17.689s] [35m[1mScanning dependencies of target communication_interfaces__rosidl_generator_c[0m
+[17.902s] [  7%] [32mBuilding C object CMakeFiles/communication_interfaces__rosidl_generator_c.dir/rosidl_generator_c/communication_interfaces/msg/detail/opinion_message__functions.c.o[0m
+[17.906s] [  8%] [32mBuilding C object CMakeFiles/communication_interfaces__rosidl_generator_c.dir/rosidl_generator_c/communication_interfaces/msg/detail/opinion_mac_message__functions.c.o[0m
+[17.981s] [ 10%] [32mBuilding C object CMakeFiles/communication_interfaces__rosidl_generator_c.dir/rosidl_generator_c/communication_interfaces/msg/detail/string_message__functions.c.o[0m
+[17.981s] [ 11%] [32mBuilding C object CMakeFiles/communication_interfaces__rosidl_generator_c.dir/rosidl_generator_c/communication_interfaces/msg/detail/double_message__functions.c.o[0m
+[17.990s] [ 12%] [32mBuilding C object CMakeFiles/communication_interfaces__rosidl_generator_c.dir/rosidl_generator_c/communication_interfaces/msg/detail/int8_message__functions.c.o[0m
+[18.608s] [35m[1mScanning dependencies of target communication_interfaces__rosidl_typesupport_cpp[0m
+[18.795s] [ 13%] [32mBuilding C object CMakeFiles/communication_interfaces__rosidl_generator_c.dir/rosidl_generator_c/communication_interfaces/msg/detail/range_data__functions.c.o[0m
+[18.879s] [ 15%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication_interfaces/msg/opinion_message__type_support.cpp.o[0m
+[18.888s] [ 16%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication_interfaces/msg/opinion_mac_message__type_support.cpp.o[0m
+[18.889s] [ 17%] [32mBuilding C object CMakeFiles/communication_interfaces__rosidl_generator_c.dir/rosidl_generator_c/communication_interfaces/msg/detail/float_array__functions.c.o[0m
+[18.918s] [ 18%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication_interfaces/msg/string_message__type_support.cpp.o[0m
+[18.919s] [35m[1mScanning dependencies of target communication_interfaces__rosidl_typesupport_introspection_cpp[0m
+[19.010s] [ 20%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication_interfaces/msg/double_message__type_support.cpp.o[0m
+[19.014s] [ 21%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/opinion_message__type_support.cpp.o[0m
+[19.015s] [ 22%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/opinion_mac_message__type_support.cpp.o[0m
+[19.020s] [35m[1mScanning dependencies of target communication_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[19.092s] [ 24%] [32m[1mLinking C shared library libcommunication_interfaces__rosidl_generator_c.so[0m
+[19.230s] [ 25%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication_interfaces/msg/detail/dds_fastrtps/opinion_message__type_support.cpp.o[0m
+[19.637s] [ 25%] Built target communication_interfaces__rosidl_generator_c
+[19.651s] [ 26%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication_interfaces/msg/detail/dds_fastrtps/opinion_mac_message__type_support.cpp.o[0m
+[21.898s] [ 27%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication_interfaces/msg/int8_message__type_support.cpp.o[0m
+[22.015s] [ 29%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/string_message__type_support.cpp.o[0m
+[22.084s] [ 30%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication_interfaces/msg/range_data__type_support.cpp.o[0m
+[22.098s] [ 31%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication_interfaces/msg/float_array__type_support.cpp.o[0m
+[22.392s] [ 32%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication_interfaces/msg/detail/dds_fastrtps/string_message__type_support.cpp.o[0m
+[22.487s] [ 34%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/double_message__type_support.cpp.o[0m
+[23.206s] [ 35%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/int8_message__type_support.cpp.o[0m
+[23.779s] [ 36%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication_interfaces/msg/detail/dds_fastrtps/double_message__type_support.cpp.o[0m
+[24.084s] [ 37%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication_interfaces/msg/detail/dds_fastrtps/range_data__type_support.cpp.o[0m
+[24.096s] [ 39%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication_interfaces/msg/detail/dds_fastrtps/int8_message__type_support.cpp.o[0m
+[24.294s] [ 40%] [32m[1mLinking CXX shared library libcommunication_interfaces__rosidl_typesupport_cpp.so[0m
+[24.306s] [ 41%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/range_data__type_support.cpp.o[0m
+[24.606s] [ 43%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interfaces/msg/detail/float_array__type_support.cpp.o[0m
+[24.683s] [ 43%] Built target communication_interfaces__rosidl_typesupport_cpp
+[24.790s] [ 44%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[25.501s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[25.509s] [ 46%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication_interfaces/msg/detail/dds_fastrtps/float_array__type_support.cpp.o[0m
+[27.382s] [35m[1mScanning dependencies of target communication_interfaces__rosidl_typesupport_c[0m
+[27.478s] [ 49%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interfaces/msg/opinion_mac_message__type_support.cpp.o[0m
+[27.478s] [ 49%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interfaces/msg/opinion_message__type_support.cpp.o[0m
+[27.580s] [ 51%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interfaces/msg/string_message__type_support.cpp.o[0m
+[27.581s] [ 51%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interfaces/msg/double_message__type_support.cpp.o[0m
+[27.600s] [ 53%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interfaces/msg/int8_message__type_support.cpp.o[0m
+[27.613s] [ 54%] [32m[1mLinking CXX shared library libcommunication_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[27.699s] [ 55%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interfaces/msg/range_data__type_support.cpp.o[0m
+[27.711s] [ 56%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interfaces/msg/float_array__type_support.cpp.o[0m
+[27.923s] [ 58%] [32m[1mLinking CXX shared library libcommunication_interfaces__rosidl_typesupport_c.so[0m
+[28.003s] [ 58%] Built target communication_interfaces__rosidl_typesupport_introspection_cpp
+[28.100s] [35m[1mScanning dependencies of target communication_interfaces__rosidl_typesupport_introspection_c[0m
+[28.104s] [ 58%] Built target communication_interfaces__rosidl_typesupport_c
+[28.139s] [ 60%] [32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication_interfaces/msg/detail/double_message__type_support.c.o[0m
+[28.139s] [ 60%] [32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication_interfaces/msg/detail/string_message__type_support.c.o[0m
+[28.178s] [ 62%] [32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication_interfaces/msg/detail/opinion_message__type_support.c.o[0m
+[28.185s] [ 63%] [32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication_interfaces/msg/detail/opinion_mac_message__type_support.c.o[0m
+[28.187s] [ 64%] [32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication_interfaces/msg/detail/int8_message__type_support.c.o[0m
+[28.198s] [ 65%] [32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication_interfaces/msg/detail/range_data__type_support.c.o[0m
+[28.200s] [ 67%] [32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication_interfaces/msg/detail/float_array__type_support.c.o[0m
+[28.399s] [ 68%] [32m[1mLinking C shared library libcommunication_interfaces__rosidl_typesupport_introspection_c.so[0m
+[28.466s] [ 68%] Built target communication_interfaces__rosidl_typesupport_introspection_c
+[28.468s] [ 69%] [32m[1mLinking CXX shared library libcommunication_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[29.224s] [ 69%] Built target communication_interfaces__rosidl_typesupport_fastrtps_cpp
+[29.242s] [ 70%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[29.957s] [35m[1mScanning dependencies of target communication_interfaces__rosidl_typesupport_fastrtps_c[0m
+[30.009s] [ 72%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication_interfaces/msg/detail/int8_message__type_support_c.cpp.o[0m
+[30.011s] [ 73%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication_interfaces/msg/detail/double_message__type_support_c.cpp.o[0m
+[30.015s] [ 74%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication_interfaces/msg/detail/opinion_mac_message__type_support_c.cpp.o[0m
+[30.021s] [ 75%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication_interfaces/msg/detail/string_message__type_support_c.cpp.o[0m
+[30.022s] [ 77%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication_interfaces/msg/detail/opinion_message__type_support_c.cpp.o[0m
+[30.023s] [ 78%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication_interfaces/msg/detail/range_data__type_support_c.cpp.o[0m
+[30.028s] [ 79%] [32mBuilding CXX object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication_interfaces/msg/detail/float_array__type_support_c.cpp.o[0m
+[32.398s] [ 81%] [32m[1mLinking CXX shared library libcommunication_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[32.512s] [ 81%] Built target communication_interfaces__rosidl_typesupport_fastrtps_c
+[32.527s] [35m[1mScanning dependencies of target communication_interfaces[0m
+[32.543s] [ 81%] Built target communication_interfaces
+[32.562s] [35m[1mScanning dependencies of target communication_interfaces__py[0m
+[32.582s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[36.826s] [ 82%] Built target communication_interfaces__py
+[36.843s] [35m[1mScanning dependencies of target communication_interfaces__python[0m
+[37.055s] [ 83%] [32mBuilding C object CMakeFiles/communication_interfaces__python.dir/rosidl_generator_py/communication_interfaces/msg/_opinion_mac_message_s.c.o[0m
+[37.057s] [ 84%] [32mBuilding C object CMakeFiles/communication_interfaces__python.dir/rosidl_generator_py/communication_interfaces/msg/_opinion_message_s.c.o[0m
+[37.058s] [ 86%] [32mBuilding C object CMakeFiles/communication_interfaces__python.dir/rosidl_generator_py/communication_interfaces/msg/_double_message_s.c.o[0m
+[37.072s] [ 87%] [32mBuilding C object CMakeFiles/communication_interfaces__python.dir/rosidl_generator_py/communication_interfaces/msg/_string_message_s.c.o[0m
+[37.072s] [ 88%] [32mBuilding C object CMakeFiles/communication_interfaces__python.dir/rosidl_generator_py/communication_interfaces/msg/_float_array_s.c.o[0m
+[37.077s] [ 89%] [32mBuilding C object CMakeFiles/communication_interfaces__python.dir/rosidl_generator_py/communication_interfaces/msg/_range_data_s.c.o[0m
+[37.096s] [ 91%] [32mBuilding C object CMakeFiles/communication_interfaces__python.dir/rosidl_generator_py/communication_interfaces/msg/_int8_message_s.c.o[0m
+[38.057s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/communication_interfaces/libcommunication_interfaces__python.so[0m
+[38.135s] [ 92%] Built target communication_interfaces__python
+[38.155s] [35m[1mScanning dependencies of target communication_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[38.156s] [35m[1mScanning dependencies of target communication_interfaces__rosidl_typesupport_c__pyext[0m
+[38.157s] [35m[1mScanning dependencies of target communication_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[38.198s] [ 94%] [32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/communication_interfaces/_communication_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[38.198s] [ 94%] [32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/communication_interfaces/_communication_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[38.212s] [ 96%] [32mBuilding C object CMakeFiles/communication_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/communication_interfaces/_communication_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[38.426s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/communication_interfaces/communication_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[38.498s] [ 98%] [32m[1mLinking CXX shared library rosidl_generator_py/communication_interfaces/communication_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[38.511s] [100%] [32m[1mLinking C shared library rosidl_generator_py/communication_interfaces/communication_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[38.531s] [100%] Built target communication_interfaces__rosidl_typesupport_introspection_c__pyext
+[38.599s] [100%] Built target communication_interfaces__rosidl_typesupport_c__pyext
+[38.610s] [100%] Built target communication_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[38.633s] Invoked command in '/home/user/ROS2swarm/build/communication_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ROS2swarm/build/communication_interfaces -- -j8 -l8
+[39.063s] Invoking command in '/home/user/ROS2swarm/build/communication_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ROS2swarm/build/communication_interfaces
+[39.076s] -- Install configuration: ""
+[39.077s] -- Execute custom install script
+[39.077s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/ament_index/resource_index/rosidl_interfaces/communication_interfaces
+[39.079s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__functions.h
+[39.080s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__struct.h
+[39.080s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__type_support.h
+[39.080s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__functions.h
+[39.081s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__struct.h
+[39.081s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__type_support.h
+[39.082s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__functions.h
+[39.082s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__struct.h
+[39.082s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__type_support.h
+[39.083s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__functions.h
+[39.083s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__struct.h
+[39.084s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__type_support.h
+[39.084s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__functions.h
+[39.084s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__struct.h
+[39.085s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__type_support.h
+[39.085s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__functions.h
+[39.086s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__struct.h
+[39.086s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__type_support.h
+[39.087s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__functions.h
+[39.087s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__struct.h
+[39.087s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__type_support.h
+[39.088s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/double_message.h
+[39.088s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/float_array.h
+[39.089s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/int8_message.h
+[39.089s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/opinion_mac_message.h
+[39.090s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/opinion_message.h
+[39.090s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/range_data.h
+[39.090s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/rosidl_generator_c__visibility_control.h
+[39.091s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/string_message.h
+[39.091s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/environment/library_path.sh
+[39.092s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/environment/library_path.dsv
+[39.093s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__rosidl_typesupport_fastrtps_c.h
+[39.094s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__rosidl_typesupport_fastrtps_c.h
+[39.094s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__rosidl_typesupport_fastrtps_c.h
+[39.095s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__rosidl_typesupport_fastrtps_c.h
+[39.095s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__rosidl_typesupport_fastrtps_c.h
+[39.096s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__rosidl_typesupport_fastrtps_c.h
+[39.096s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__rosidl_typesupport_fastrtps_c.h
+[39.096s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[39.097s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_fastrtps_c.so
+[39.099s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__rosidl_typesupport_fastrtps_cpp.hpp
+[39.099s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__rosidl_typesupport_fastrtps_cpp.hpp
+[39.100s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__rosidl_typesupport_fastrtps_cpp.hpp
+[39.100s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__rosidl_typesupport_fastrtps_cpp.hpp
+[39.101s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__rosidl_typesupport_fastrtps_cpp.hpp
+[39.101s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__rosidl_typesupport_fastrtps_cpp.hpp
+[39.101s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__rosidl_typesupport_fastrtps_cpp.hpp
+[39.102s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[39.103s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[39.104s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__rosidl_typesupport_introspection_c.h
+[39.104s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__rosidl_typesupport_introspection_c.h
+[39.105s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__rosidl_typesupport_introspection_c.h
+[39.105s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__rosidl_typesupport_introspection_c.h
+[39.105s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__rosidl_typesupport_introspection_c.h
+[39.106s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__rosidl_typesupport_introspection_c.h
+[39.106s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__rosidl_typesupport_introspection_c.h
+[39.107s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[39.108s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__builder.hpp
+[39.109s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__struct.hpp
+[39.109s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__traits.hpp
+[39.109s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__builder.hpp
+[39.110s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__struct.hpp
+[39.110s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__traits.hpp
+[39.110s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__builder.hpp
+[39.111s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__struct.hpp
+[39.111s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__traits.hpp
+[39.111s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__builder.hpp
+[39.112s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__struct.hpp
+[39.112s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__traits.hpp
+[39.112s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__builder.hpp
+[39.113s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__struct.hpp
+[39.113s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__traits.hpp
+[39.113s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__builder.hpp
+[39.114s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__struct.hpp
+[39.114s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__traits.hpp
+[39.114s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__builder.hpp
+[39.115s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__struct.hpp
+[39.115s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__traits.hpp
+[39.116s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/double_message.hpp
+[39.116s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/float_array.hpp
+[39.116s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/int8_message.hpp
+[39.116s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/opinion_mac_message.hpp
+[39.117s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/opinion_message.hpp
+[39.117s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/range_data.hpp
+[39.118s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/string_message.hpp
+[39.118s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/double_message__rosidl_typesupport_introspection_cpp.hpp
+[39.119s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/float_array__rosidl_typesupport_introspection_cpp.hpp
+[39.119s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/int8_message__rosidl_typesupport_introspection_cpp.hpp
+[39.120s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_mac_message__rosidl_typesupport_introspection_cpp.hpp
+[39.120s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/opinion_message__rosidl_typesupport_introspection_cpp.hpp
+[39.120s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/range_data__rosidl_typesupport_introspection_cpp.hpp
+[39.121s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/include/communication_interfaces/msg/detail/string_message__rosidl_typesupport_introspection_cpp.hpp
+[39.121s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/environment/pythonpath.sh
+[39.121s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/environment/pythonpath.dsv
+[39.122s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/__init__.py
+[39.123s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/__init__.py
+[39.123s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/_double_message.py
+[39.123s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/_float_array.py
+[39.124s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/_int8_message.py
+[39.124s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/_opinion_mac_message.py
+[39.124s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/_opinion_message.py
+[39.125s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/_range_data.py
+[39.125s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/msg/_string_message.py
+[39.126s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/communication_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[39.127s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/communication_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[39.127s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/communication_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[39.128s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__python.so
+[39.129s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/OpinionMessage.idl
+[39.129s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/OpinionMACMessage.idl
+[39.129s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/StringMessage.idl
+[39.130s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/DoubleMessage.idl
+[39.130s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/Int8Message.idl
+[39.131s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/RangeData.idl
+[39.131s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/FloatArray.idl
+[39.132s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/OpinionMessage.msg
+[39.132s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/OpinionMACMessage.msg
+[39.133s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/StringMessage.msg
+[39.133s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/DoubleMessage.msg
+[39.133s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/Int8Message.msg
+[39.134s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/RangeData.msg
+[39.134s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/msg/FloatArray.msg
+[39.135s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/ament_index/resource_index/package_run_dependencies/communication_interfaces
+[39.135s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/ament_index/resource_index/parent_prefix_path/communication_interfaces
+[39.136s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/environment/ament_prefix_path.sh
+[39.136s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/environment/ament_prefix_path.dsv
+[39.137s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/environment/path.sh
+[39.137s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/environment/path.dsv
+[39.138s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/local_setup.bash
+[39.138s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/local_setup.sh
+[39.139s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/local_setup.zsh
+[39.139s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/local_setup.dsv
+[39.139s] -- Symlinking: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/package.dsv
+[39.156s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/ament_index/resource_index/packages/communication_interfaces
+[39.156s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/rosidl_cmake-extras.cmake
+[39.157s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.157s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[39.158s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[39.159s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.159s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[39.159s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[39.160s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfacesConfig.cmake
+[39.160s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfacesConfig-version.cmake
+[39.160s] -- Up-to-date symlink: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/package.xml
+[39.168s] -- Installing: /home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_generator_c.so
+[39.169s] -- Set runtime path of "/home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_generator_c.so" to ""
+[39.172s] -- Installing: /home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_introspection_c.so
+[39.172s] -- Set runtime path of "/home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[39.180s] -- Installing: /home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_c.so
+[39.180s] -- Set runtime path of "/home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_c.so" to ""
+[39.189s] -- Installing: /home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_introspection_cpp.so
+[39.189s] -- Set runtime path of "/home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[39.191s] -- Installing: /home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_cpp.so
+[39.192s] -- Set runtime path of "/home/user/ROS2swarm/install/communication_interfaces/lib/libcommunication_interfaces__rosidl_typesupport_cpp.so" to ""
+[39.264s] Compiling '/home/user/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages/communication_interfaces/__init__.py'...
+[39.270s] -- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_generator_cExport.cmake
+[39.270s] -- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_generator_cExport-noconfig.cmake
+[39.272s] -- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[39.273s] -- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[39.274s] -- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_cExport.cmake
+[39.274s] -- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[39.275s] -- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_generator_cppExport.cmake
+[39.276s] -- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[39.277s] -- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[39.278s] -- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_cppExport.cmake
+[39.279s] -- Installing: /home/user/ROS2swarm/install/communication_interfaces/share/communication_interfaces/cmake/communication_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[39.284s] Invoked command in '/home/user/ROS2swarm/build/communication_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ROS2swarm/build/communication_interfaces

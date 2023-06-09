@@ -1,0 +1,58 @@
+[1.469s] Invoking command in '/home/user/ROS2swarm/build/thymio_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/ROS2swarm/src/ros-thymio/thymio_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ROS2swarm/install/thymio_description
+[1.777s] -- The C compiler identification is GNU 9.3.0
+[2.013s] -- The CXX compiler identification is GNU 9.3.0
+[2.069s] -- Check for working C compiler: /usr/bin/cc
+[2.476s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.479s] -- Detecting C compiler ABI info
+[2.909s] -- Detecting C compiler ABI info - done
+[2.989s] -- Detecting C compile features
+[2.990s] -- Detecting C compile features - done
+[2.996s] -- Check for working CXX compiler: /usr/bin/c++
+[3.468s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.470s] -- Detecting CXX compiler ABI info
+[3.875s] -- Detecting CXX compiler ABI info - done
+[3.916s] -- Detecting CXX compile features
+[3.916s] -- Detecting CXX compile features - done
+[3.971s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[4.089s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.090s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.930s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.116s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.511s] -- Configuring done
+[5.517s] -- Generating done
+[5.519s] -- Build files have been written to: /home/user/ROS2swarm/build/thymio_description
+[5.533s] Invoked command in '/home/user/ROS2swarm/build/thymio_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/ROS2swarm/src/ros-thymio/thymio_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ROS2swarm/install/thymio_description
+[5.534s] Invoking command in '/home/user/ROS2swarm/build/thymio_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ROS2swarm/build/thymio_description -- -j8 -l8
+[5.672s] Invoked command in '/home/user/ROS2swarm/build/thymio_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ROS2swarm/build/thymio_description -- -j8 -l8
+[5.810s] Invoking command in '/home/user/ROS2swarm/build/thymio_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ROS2swarm/build/thymio_description
+[5.828s] -- Install configuration: ""
+[5.829s] -- Execute custom install script
+[5.829s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/meshes/base_simple.dae
+[5.848s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/meshes/base_collision.dae
+[5.882s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/meshes/wheel.dae
+[5.910s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/urdf/base.urdf.xacro
+[5.936s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/urdf/imu.urdf.xacro
+[5.976s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/urdf/proximity_sensor.urdf.xacro
+[6.027s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/urdf/thymio.urdf.xacro
+[6.068s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/urdf/wheel.urdf.xacro
+[6.087s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/launch/model.launch.py
+[6.105s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/launch/rviz.launch.py
+[6.125s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/launch/spawn.launch
+[6.170s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/launch/template.rviz
+[6.186s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/model.config
+[6.202s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/ament_index/resource_index/package_run_dependencies/thymio_description
+[6.218s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/ament_index/resource_index/parent_prefix_path/thymio_description
+[6.237s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/environment/ament_prefix_path.sh
+[6.287s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/environment/ament_prefix_path.dsv
+[6.304s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/environment/path.sh
+[6.321s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/environment/path.dsv
+[6.369s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/local_setup.bash
+[6.395s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/local_setup.sh
+[6.413s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/local_setup.zsh
+[6.433s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/local_setup.dsv
+[6.481s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/package.dsv
+[6.499s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/ament_index/resource_index/packages/thymio_description
+[6.524s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/cmake/thymio_descriptionConfig.cmake
+[6.542s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/cmake/thymio_descriptionConfig-version.cmake
+[6.587s] -- Symlinking: /home/user/ROS2swarm/install/thymio_description/share/thymio_description/package.xml
+[6.617s] Invoked command in '/home/user/ROS2swarm/build/thymio_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ROS2swarm/build/thymio_description

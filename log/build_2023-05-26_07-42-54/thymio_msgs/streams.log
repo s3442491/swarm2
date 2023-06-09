@@ -1,0 +1,274 @@
+[0.109s] Invoking command in '/home/user/ROS2swarm/build/thymio_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/ROS2swarm/src/ros-thymio/thymio_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ROS2swarm/install/thymio_msgs
+[1.579s] -- The C compiler identification is GNU 9.3.0
+[1.579s] -- The CXX compiler identification is GNU 9.3.0
+[1.580s] -- Check for working C compiler: /usr/bin/cc
+[1.580s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.580s] -- Detecting C compiler ABI info
+[1.580s] -- Detecting C compiler ABI info - done
+[1.580s] -- Detecting C compile features
+[1.580s] -- Detecting C compile features - done
+[1.580s] -- Check for working CXX compiler: /usr/bin/c++
+[1.580s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.580s] -- Detecting CXX compiler ABI info
+[1.866s] -- Detecting CXX compiler ABI info - done
+[1.883s] -- Detecting CXX compile features
+[1.884s] -- Detecting CXX compile features - done
+[1.895s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.073s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.073s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.180s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.581s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[3.799s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.893s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.798s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.911s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.298s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.426s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[5.572s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[6.007s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[6.558s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.602s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.698s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[6.710s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[6.800s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[6.801s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.801s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[6.802s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[6.883s] -- Found PythonExtra: .so  
+[7.058s] -- Configuring done
+[7.151s] -- Generating done
+[7.157s] -- Build files have been written to: /home/user/ROS2swarm/build/thymio_msgs
+[7.175s] Invoked command in '/home/user/ROS2swarm/build/thymio_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/ROS2swarm/src/ros-thymio/thymio_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ROS2swarm/install/thymio_msgs
+[7.180s] Invoking command in '/home/user/ROS2swarm/build/thymio_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ROS2swarm/build/thymio_msgs -- -j8 -l8
+[7.278s] [35m[1mScanning dependencies of target thymio_msgs__cpp[0m
+[7.299s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.606s] [  1%] Built target thymio_msgs__cpp
+[8.627s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[10.050s] [35m[1mScanning dependencies of target thymio_msgs__rosidl_generator_c[0m
+[10.089s] [  4%] [32mBuilding C object CMakeFiles/thymio_msgs__rosidl_generator_c.dir/rosidl_generator_c/thymio_msgs/msg/detail/led__functions.c.o[0m
+[10.231s] [  6%] [32mBuilding C object CMakeFiles/thymio_msgs__rosidl_generator_c.dir/rosidl_generator_c/thymio_msgs/msg/detail/comm__functions.c.o[0m
+[10.302s] [  7%] [32mBuilding C object CMakeFiles/thymio_msgs__rosidl_generator_c.dir/rosidl_generator_c/thymio_msgs/msg/detail/system_sound__functions.c.o[0m
+[10.381s] [  9%] [32mBuilding C object CMakeFiles/thymio_msgs__rosidl_generator_c.dir/rosidl_generator_c/thymio_msgs/msg/detail/sound__functions.c.o[0m
+[10.455s] [ 11%] [32mBuilding C object CMakeFiles/thymio_msgs__rosidl_generator_c.dir/rosidl_generator_c/thymio_msgs/msg/detail/led_gesture__functions.c.o[0m
+[10.535s] [ 12%] [32m[1mLinking C shared library libthymio_msgs__rosidl_generator_c.so[0m
+[10.624s] [ 12%] Built target thymio_msgs__rosidl_generator_c
+[10.647s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.583s] [35m[1mScanning dependencies of target thymio_msgs__rosidl_typesupport_introspection_cpp[0m
+[11.614s] [ 15%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/thymio_msgs/msg/detail/led__type_support.cpp.o[0m
+[12.428s] [ 17%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/thymio_msgs/msg/detail/system_sound__type_support.cpp.o[0m
+[12.884s] [ 19%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/thymio_msgs/msg/detail/comm__type_support.cpp.o[0m
+[13.371s] [ 20%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/thymio_msgs/msg/detail/sound__type_support.cpp.o[0m
+[13.918s] [ 22%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/thymio_msgs/msg/detail/led_gesture__type_support.cpp.o[0m
+[14.406s] [ 23%] [32m[1mLinking CXX shared library libthymio_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[14.542s] [ 23%] Built target thymio_msgs__rosidl_typesupport_introspection_cpp
+[14.575s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[15.331s] [35m[1mScanning dependencies of target thymio_msgs__rosidl_typesupport_c[0m
+[15.366s] [ 26%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/thymio_msgs/msg/led__type_support.cpp.o[0m
+[15.437s] [ 28%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/thymio_msgs/msg/comm__type_support.cpp.o[0m
+[15.490s] [ 30%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/thymio_msgs/msg/system_sound__type_support.cpp.o[0m
+[15.546s] [ 31%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/thymio_msgs/msg/sound__type_support.cpp.o[0m
+[15.607s] [ 33%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/thymio_msgs/msg/led_gesture__type_support.cpp.o[0m
+[15.661s] [ 34%] [32m[1mLinking CXX shared library libthymio_msgs__rosidl_typesupport_c.so[0m
+[15.750s] [ 34%] Built target thymio_msgs__rosidl_typesupport_c
+[15.778s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[16.689s] [35m[1mScanning dependencies of target thymio_msgs__rosidl_typesupport_introspection_c[0m
+[16.719s] [ 38%] [32mBuilding C object CMakeFiles/thymio_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/thymio_msgs/msg/detail/led__type_support.c.o[0m
+[16.779s] [ 39%] [32mBuilding C object CMakeFiles/thymio_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/thymio_msgs/msg/detail/comm__type_support.c.o[0m
+[16.836s] [ 41%] [32mBuilding C object CMakeFiles/thymio_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/thymio_msgs/msg/detail/system_sound__type_support.c.o[0m
+[16.902s] [ 42%] [32mBuilding C object CMakeFiles/thymio_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/thymio_msgs/msg/detail/sound__type_support.c.o[0m
+[16.967s] [ 44%] [32mBuilding C object CMakeFiles/thymio_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/thymio_msgs/msg/detail/led_gesture__type_support.c.o[0m
+[17.024s] [ 46%] [32m[1mLinking C shared library libthymio_msgs__rosidl_typesupport_introspection_c.so[0m
+[17.076s] [ 46%] Built target thymio_msgs__rosidl_typesupport_introspection_c
+[17.100s] [ 47%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[18.012s] [35m[1mScanning dependencies of target thymio_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[18.058s] [ 49%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/thymio_msgs/msg/detail/dds_fastrtps/led__type_support.cpp.o[0m
+[18.932s] [ 50%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/thymio_msgs/msg/detail/dds_fastrtps/comm__type_support.cpp.o[0m
+[19.704s] [ 52%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/thymio_msgs/msg/detail/dds_fastrtps/system_sound__type_support.cpp.o[0m
+[20.442s] [ 53%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/thymio_msgs/msg/detail/dds_fastrtps/sound__type_support.cpp.o[0m
+[21.143s] [ 55%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/thymio_msgs/msg/detail/dds_fastrtps/led_gesture__type_support.cpp.o[0m
+[21.834s] [ 57%] [32m[1mLinking CXX shared library libthymio_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[22.007s] [ 57%] Built target thymio_msgs__rosidl_typesupport_fastrtps_cpp
+[22.027s] [ 58%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[22.760s] [35m[1mScanning dependencies of target thymio_msgs__rosidl_typesupport_cpp[0m
+[22.795s] [ 60%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/thymio_msgs/msg/led__type_support.cpp.o[0m
+[23.271s] [ 61%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/thymio_msgs/msg/comm__type_support.cpp.o[0m
+[23.740s] [ 63%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/thymio_msgs/msg/system_sound__type_support.cpp.o[0m
+[24.226s] [ 65%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/thymio_msgs/msg/sound__type_support.cpp.o[0m
+[24.712s] [ 66%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/thymio_msgs/msg/led_gesture__type_support.cpp.o[0m
+[25.204s] [ 68%] [32m[1mLinking CXX shared library libthymio_msgs__rosidl_typesupport_cpp.so[0m
+[25.277s] [ 68%] Built target thymio_msgs__rosidl_typesupport_cpp
+[25.304s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[26.248s] [35m[1mScanning dependencies of target thymio_msgs__rosidl_typesupport_fastrtps_c[0m
+[26.291s] [ 71%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/thymio_msgs/msg/detail/led__type_support_c.cpp.o[0m
+[26.916s] [ 73%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/thymio_msgs/msg/detail/comm__type_support_c.cpp.o[0m
+[27.503s] [ 74%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/thymio_msgs/msg/detail/system_sound__type_support_c.cpp.o[0m
+[28.218s] [ 76%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/thymio_msgs/msg/detail/sound__type_support_c.cpp.o[0m
+[28.812s] [ 77%] [32mBuilding CXX object CMakeFiles/thymio_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/thymio_msgs/msg/detail/led_gesture__type_support_c.cpp.o[0m
+[29.526s] [ 79%] [32m[1mLinking CXX shared library libthymio_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[29.709s] [ 79%] Built target thymio_msgs__rosidl_typesupport_fastrtps_c
+[29.725s] [35m[1mScanning dependencies of target thymio_msgs[0m
+[29.744s] [ 79%] Built target thymio_msgs
+[29.770s] [35m[1mScanning dependencies of target thymio_msgs__py[0m
+[29.794s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[31.910s] [ 80%] Built target thymio_msgs__py
+[31.933s] [35m[1mScanning dependencies of target thymio_msgs__python[0m
+[32.064s] [ 82%] [32mBuilding C object CMakeFiles/thymio_msgs__python.dir/rosidl_generator_py/thymio_msgs/msg/_led_s.c.o[0m
+[32.295s] [ 84%] [32mBuilding C object CMakeFiles/thymio_msgs__python.dir/rosidl_generator_py/thymio_msgs/msg/_comm_s.c.o[0m
+[32.495s] [ 85%] [32mBuilding C object CMakeFiles/thymio_msgs__python.dir/rosidl_generator_py/thymio_msgs/msg/_system_sound_s.c.o[0m
+[32.667s] [ 87%] [32mBuilding C object CMakeFiles/thymio_msgs__python.dir/rosidl_generator_py/thymio_msgs/msg/_sound_s.c.o[0m
+[32.851s] [ 88%] [32mBuilding C object CMakeFiles/thymio_msgs__python.dir/rosidl_generator_py/thymio_msgs/msg/_led_gesture_s.c.o[0m
+[33.055s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/thymio_msgs/libthymio_msgs__python.so[0m
+[33.142s] [ 90%] Built target thymio_msgs__python
+[33.174s] [35m[1mScanning dependencies of target thymio_msgs__rosidl_typesupport_c__pyext[0m
+[33.226s] [ 92%] [32mBuilding C object CMakeFiles/thymio_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/thymio_msgs/_thymio_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[33.441s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/thymio_msgs/thymio_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[33.532s] [ 93%] Built target thymio_msgs__rosidl_typesupport_c__pyext
+[33.555s] [35m[1mScanning dependencies of target thymio_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[33.590s] [ 95%] [32mBuilding C object CMakeFiles/thymio_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/thymio_msgs/_thymio_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[33.760s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/thymio_msgs/thymio_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[33.840s] [ 96%] Built target thymio_msgs__rosidl_typesupport_introspection_c__pyext
+[33.866s] [35m[1mScanning dependencies of target thymio_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[33.918s] [ 98%] [32mBuilding C object CMakeFiles/thymio_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/thymio_msgs/_thymio_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[34.086s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/thymio_msgs/thymio_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[34.209s] [100%] Built target thymio_msgs__rosidl_typesupport_fastrtps_c__pyext
+[34.240s] Invoked command in '/home/user/ROS2swarm/build/thymio_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ROS2swarm/build/thymio_msgs -- -j8 -l8
+[34.926s] Invoking command in '/home/user/ROS2swarm/build/thymio_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ROS2swarm/build/thymio_msgs
+[34.944s] -- Install configuration: ""
+[34.945s] -- Execute custom install script
+[34.946s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/ament_index/resource_index/rosidl_interfaces/thymio_msgs
+[34.966s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/comm.h
+[34.984s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/comm__functions.h
+[35.002s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/comm__struct.h
+[35.030s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/comm__type_support.h
+[35.046s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led__functions.h
+[35.059s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led__struct.h
+[35.076s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led__type_support.h
+[35.097s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led_gesture__functions.h
+[35.114s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led_gesture__struct.h
+[35.137s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led_gesture__type_support.h
+[35.158s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/sound__functions.h
+[35.175s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/sound__struct.h
+[35.194s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/sound__type_support.h
+[35.210s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/system_sound__functions.h
+[35.226s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/system_sound__struct.h
+[35.248s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/system_sound__type_support.h
+[35.268s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/led.h
+[35.286s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/led_gesture.h
+[35.299s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/rosidl_generator_c__visibility_control.h
+[35.315s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/sound.h
+[35.334s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/system_sound.h
+[35.354s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/environment/library_path.sh
+[35.370s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/environment/library_path.dsv
+[35.393s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/comm__rosidl_typesupport_fastrtps_c.h
+[35.408s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led__rosidl_typesupport_fastrtps_c.h
+[35.425s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led_gesture__rosidl_typesupport_fastrtps_c.h
+[35.442s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_c.h
+[35.462s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/system_sound__rosidl_typesupport_fastrtps_c.h
+[35.475s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[35.493s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/lib/libthymio_msgs__rosidl_typesupport_fastrtps_c.so
+[35.511s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/comm__rosidl_typesupport_fastrtps_cpp.hpp
+[35.531s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led__rosidl_typesupport_fastrtps_cpp.hpp
+[35.547s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led_gesture__rosidl_typesupport_fastrtps_cpp.hpp
+[35.565s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp
+[35.580s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/system_sound__rosidl_typesupport_fastrtps_cpp.hpp
+[35.597s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[35.620s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/lib/libthymio_msgs__rosidl_typesupport_fastrtps_cpp.so
+[35.639s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/comm__rosidl_typesupport_introspection_c.h
+[35.660s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led__rosidl_typesupport_introspection_c.h
+[35.679s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led_gesture__rosidl_typesupport_introspection_c.h
+[35.695s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/sound__rosidl_typesupport_introspection_c.h
+[35.712s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/system_sound__rosidl_typesupport_introspection_c.h
+[35.733s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[35.755s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/comm.hpp
+[35.770s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/comm__builder.hpp
+[35.788s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/comm__struct.hpp
+[35.812s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/comm__traits.hpp
+[35.825s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led__builder.hpp
+[35.842s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led__struct.hpp
+[35.856s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led__traits.hpp
+[35.868s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led_gesture__builder.hpp
+[35.885s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led_gesture__struct.hpp
+[35.902s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led_gesture__traits.hpp
+[35.922s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/sound__builder.hpp
+[35.942s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/sound__struct.hpp
+[35.954s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/sound__traits.hpp
+[35.968s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/system_sound__builder.hpp
+[35.986s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/system_sound__struct.hpp
+[36.001s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/system_sound__traits.hpp
+[36.014s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/led.hpp
+[36.031s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/led_gesture.hpp
+[36.045s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/sound.hpp
+[36.064s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/system_sound.hpp
+[36.083s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/comm__rosidl_typesupport_introspection_cpp.hpp
+[36.101s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led__rosidl_typesupport_introspection_cpp.hpp
+[36.118s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/led_gesture__rosidl_typesupport_introspection_cpp.hpp
+[36.134s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+[36.157s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/include/thymio_msgs/msg/detail/system_sound__rosidl_typesupport_introspection_cpp.hpp
+[36.188s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/environment/pythonpath.sh
+[36.266s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/environment/pythonpath.dsv
+[36.294s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages/thymio_msgs/__init__.py
+[36.311s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages/thymio_msgs/msg/__init__.py
+[36.327s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages/thymio_msgs/msg/_comm.py
+[36.347s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages/thymio_msgs/msg/_led.py
+[36.366s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages/thymio_msgs/msg/_led_gesture.py
+[36.382s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages/thymio_msgs/msg/_sound.py
+[36.396s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages/thymio_msgs/msg/_system_sound.py
+[36.412s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages/thymio_msgs/thymio_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[36.429s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages/thymio_msgs/thymio_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[36.445s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages/thymio_msgs/thymio_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[36.472s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/lib/libthymio_msgs__python.so
+[36.486s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/msg/Led.idl
+[36.501s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/msg/LedGesture.idl
+[36.519s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/msg/Sound.idl
+[36.538s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/msg/SystemSound.idl
+[36.553s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/msg/Comm.idl
+[36.569s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/msg/Led.msg
+[36.582s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/msg/LedGesture.msg
+[36.598s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/msg/Sound.msg
+[36.615s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/msg/SystemSound.msg
+[36.629s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/msg/Comm.msg
+[36.651s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/ament_index/resource_index/package_run_dependencies/thymio_msgs
+[36.666s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/ament_index/resource_index/parent_prefix_path/thymio_msgs
+[36.680s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/environment/ament_prefix_path.sh
+[36.698s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/environment/ament_prefix_path.dsv
+[36.714s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/environment/path.sh
+[36.735s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/environment/path.dsv
+[36.752s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/local_setup.bash
+[36.766s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/local_setup.sh
+[36.782s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/local_setup.zsh
+[36.801s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/local_setup.dsv
+[36.821s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/package.dsv
+[36.841s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/ament_index/resource_index/packages/thymio_msgs
+[36.858s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/rosidl_cmake-extras.cmake
+[36.872s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.898s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[36.914s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[36.931s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.953s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[36.970s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[36.988s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/thymio_msgsConfig.cmake
+[37.007s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/thymio_msgsConfig-version.cmake
+[37.025s] -- Symlinking: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/package.xml
+[37.051s] -- Installing: /home/user/ROS2swarm/install/thymio_msgs/lib/libthymio_msgs__rosidl_generator_c.so
+[37.052s] -- Set runtime path of "/home/user/ROS2swarm/install/thymio_msgs/lib/libthymio_msgs__rosidl_generator_c.so" to ""
+[37.052s] -- Installing: /home/user/ROS2swarm/install/thymio_msgs/lib/libthymio_msgs__rosidl_typesupport_introspection_c.so
+[37.053s] -- Set runtime path of "/home/user/ROS2swarm/install/thymio_msgs/lib/libthymio_msgs__rosidl_typesupport_introspection_c.so" to ""
+[37.053s] -- Installing: /home/user/ROS2swarm/install/thymio_msgs/lib/libthymio_msgs__rosidl_typesupport_c.so
+[37.053s] -- Set runtime path of "/home/user/ROS2swarm/install/thymio_msgs/lib/libthymio_msgs__rosidl_typesupport_c.so" to ""
+[37.053s] -- Installing: /home/user/ROS2swarm/install/thymio_msgs/lib/libthymio_msgs__rosidl_typesupport_introspection_cpp.so
+[37.054s] -- Set runtime path of "/home/user/ROS2swarm/install/thymio_msgs/lib/libthymio_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[37.054s] -- Installing: /home/user/ROS2swarm/install/thymio_msgs/lib/libthymio_msgs__rosidl_typesupport_cpp.so
+[37.055s] -- Set runtime path of "/home/user/ROS2swarm/install/thymio_msgs/lib/libthymio_msgs__rosidl_typesupport_cpp.so" to ""
+[37.128s] Compiling '/home/user/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages/thymio_msgs/__init__.py'...
+[37.146s] -- Installing: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/thymio_msgs__rosidl_generator_cExport.cmake
+[37.146s] -- Installing: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/thymio_msgs__rosidl_generator_cExport-noconfig.cmake
+[37.146s] -- Installing: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/thymio_msgs__rosidl_typesupport_introspection_cExport.cmake
+[37.146s] -- Installing: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/thymio_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[37.147s] -- Installing: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/thymio_msgs__rosidl_typesupport_cExport.cmake
+[37.149s] -- Installing: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/thymio_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[37.149s] -- Installing: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/thymio_msgs__rosidl_generator_cppExport.cmake
+[37.149s] -- Installing: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/thymio_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[37.150s] -- Installing: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/thymio_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[37.150s] -- Installing: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/thymio_msgs__rosidl_typesupport_cppExport.cmake
+[37.150s] -- Installing: /home/user/ROS2swarm/install/thymio_msgs/share/thymio_msgs/cmake/thymio_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[37.150s] Invoked command in '/home/user/ROS2swarm/build/thymio_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example:/home/user/ROS2swarm/install/thymio_driver:/home/user/ROS2swarm/install/ros2swarm:/home/user/ROS2swarm/install/launch_gazebo:/home/user/install/turtlebot3_teleop:/home/user/install/ros2swarm:/home/user/install/launch_gazebo:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ROS2swarm/build/thymio_msgs

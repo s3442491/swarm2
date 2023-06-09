@@ -1,0 +1,9 @@
+source;share/thymio_driver/hook/pythonpath.ps1
+source;share/thymio_driver/hook/pythonpath.dsv
+source;share/thymio_driver/hook/pythonpath.sh
+source;share/thymio_driver/hook/ament_prefix_path.ps1
+source;share/thymio_driver/hook/ament_prefix_path.dsv
+source;share/thymio_driver/hook/ament_prefix_path.sh
+source;../../build/thymio_driver/share/thymio_driver/hook/pythonpath_develop.ps1
+source;../../build/thymio_driver/share/thymio_driver/hook/pythonpath_develop.dsv
+source;../../build/thymio_driver/share/thymio_driver/hook/pythonpath_develop.sh
