@@ -1,0 +1,6 @@
+[console_scripts]
+calibrate_motors = thymio_driver.calibrate_motors:main
+follow_square = thymio_driver.follow_square:main
+multi_thymio_driver = thymio_driver.multi_thymio_driver_node:main
+thymio_driver = thymio_driver.thymio_driver_node:main
+

@@ -120,16 +120,27 @@ def generate_launch_description():
             if name == pattern_launch_file_name:
                 pattern_path = os.path.abspath(os.path.join(root, name))
     # add patterns
-    launch_patterns = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([launch_file_dir, '/' + 'bringup_patterns.launch.py']),
-        launch_arguments={'robot': robot,
-                          'robot_type': robot_type,
-                          'robot_namespace': ['robot_namespace_', str(robot_number)],
-                          'pattern': pattern_path,
-                          'config_dir': config_dir,
-                          'urdf_file': urdf_file
-                          }.items(),
-    )
+    if robot_type != "rosbot":
+        launch_patterns = IncludeLaunchDescription(
+            PythonLaunchDescriptionSource([launch_file_dir, '/' + 'bringup_patterns.launch.py']),
+            launch_arguments={'robot': robot,
+                            'robot_type': robot_type,
+                            'robot_namespace': ['robot_namespace_', str(robot_number)],
+                            'pattern': pattern_path,
+                            'config_dir': config_dir,
+                            'urdf_file': urdf_file
+                            }.items(),
+        )
+    else:
+        launch_patterns = IncludeLaunchDescription(
+            PythonLaunchDescriptionSource([launch_file_dir, '/' + 'bringup_rosbot_patterns.launch.py']),
+            launch_arguments={
+                            'robot_type': robot_type,
+                            'robot_namespace': ['robot_namespace_', str(robot_number)],
+                            'pattern': pattern_path,
+                            'config_dir': config_dir
+                            }.items(),
+        )
     ld.add_action(launch_patterns)
 
     return ld

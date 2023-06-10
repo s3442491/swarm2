@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: thymio-driver
+Version: 0.1.0
+Summary: A ROS driver for the Thymio-II robot
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: Apache License, Version 2.0
+Description: UNKNOWN
+Keywords: Thymio
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development

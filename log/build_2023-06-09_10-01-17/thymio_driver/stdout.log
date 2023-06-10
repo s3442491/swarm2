@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating thymio_driver.egg-info
+writing thymio_driver.egg-info/PKG-INFO
+writing dependency_links to thymio_driver.egg-info/dependency_links.txt
+writing entry points to thymio_driver.egg-info/entry_points.txt
+writing requirements to thymio_driver.egg-info/requires.txt
+writing top-level names to thymio_driver.egg-info/top_level.txt
+writing manifest file 'thymio_driver.egg-info/SOURCES.txt'
+reading manifest file 'thymio_driver.egg-info/SOURCES.txt'
+writing manifest file 'thymio_driver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/user/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages/thymio-driver.egg-link (link to .)
+Installing calibrate_motors script to /home/user/ROS2swarm/install/thymio_driver/lib/thymio_driver
+Installing follow_square script to /home/user/ROS2swarm/install/thymio_driver/lib/thymio_driver
+Installing multi_thymio_driver script to /home/user/ROS2swarm/install/thymio_driver/lib/thymio_driver
+Installing thymio_driver script to /home/user/ROS2swarm/install/thymio_driver/lib/thymio_driver
+
+Installed /home/user/ROS2swarm/build/thymio_driver
+running install_data

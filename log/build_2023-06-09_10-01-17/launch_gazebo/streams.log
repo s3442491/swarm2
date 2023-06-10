@@ -1,0 +1,17 @@
+[5.403s] Invoking command in '/home/user/ROS2swarm/build/launch_gazebo': PYTHONPATH=/home/user/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/ROS2swarm/install/launch_gazebo --editable --build-directory /home/user/ROS2swarm/build/launch_gazebo/build --no-deps install_data --install-dir /home/user/ROS2swarm/install/launch_gazebo
+[8.910s] running develop
+[11.329s] running egg_info
+[11.329s] writing launch_gazebo.egg-info/PKG-INFO
+[11.331s] writing dependency_links to launch_gazebo.egg-info/dependency_links.txt
+[11.392s] writing entry points to launch_gazebo.egg-info/entry_points.txt
+[11.392s] writing requirements to launch_gazebo.egg-info/requires.txt
+[11.392s] writing top-level names to launch_gazebo.egg-info/top_level.txt
+[11.711s] reading manifest file 'launch_gazebo.egg-info/SOURCES.txt'
+[11.715s] writing manifest file 'launch_gazebo.egg-info/SOURCES.txt'
+[12.020s] running build_ext
+[12.021s] Creating /home/user/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages/launch-gazebo.egg-link (link to .)
+[12.022s] Installing add_bot_node script to /home/user/ROS2swarm/install/launch_gazebo/lib/launch_gazebo
+[12.023s] 
+[12.023s] Installed /home/user/ROS2swarm/build/launch_gazebo
+[12.024s] running install_data
+[12.212s] Invoked command in '/home/user/ROS2swarm/build/launch_gazebo' returned '0': PYTHONPATH=/home/user/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/ROS2swarm/install/launch_gazebo --editable --build-directory /home/user/ROS2swarm/build/launch_gazebo/build --no-deps install_data --install-dir /home/user/ROS2swarm/install/launch_gazebo

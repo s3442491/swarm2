@@ -64,7 +64,7 @@ def generate_launch_description():
 
     )
     ld.add_action(launch_pattern)
-    if robot_type != "rosbot" and urdf_file:
+    if robot_type != "rosbot":
         # Add state publisher
         robot_state_publisher = launch_ros.actions.Node(
             package='robot_state_publisher',
