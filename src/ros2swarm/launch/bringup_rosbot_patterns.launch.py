@@ -25,8 +25,29 @@ def generate_launch_description():
     robot_namespace = LaunchConfiguration('robot_namespace', default='robot_namespace_default')
     pattern = LaunchConfiguration('pattern', default='pattern_default')
     robot_type = LaunchConfiguration('robot_type', default='robot_type_default')
-
+    log_level = LaunchConfiguration('log_level', default='debug')
+    
     ld = LaunchDescription()
+    # Add sensor layer
+    ros2_sensor_layer_node = launch_ros.actions.Node(
+        package='ros2swarm',
+        executable=['lidar_layer'],
+        namespace=robot_namespace,
+        output='screen',
+        parameters=[PathJoinSubstitution([config_dir, 'sensor_specification' + '.yaml'])],
+        arguments=['--ros-args', '--log-level', log_level]
+    )
+    ld.add_action(ros2_sensor_layer_node)
+    # Add Hardware protection layer
+    ros2_hardware_protection_layer_node = launch_ros.actions.Node(
+        package='ros2swarm',
+        executable='hardware_protection_layer',
+        namespace=robot_namespace,
+        output='screen',
+        parameters=[PathJoinSubstitution([config_dir, 'hardware_protection_layer' + '.yaml'])],
+        arguments=['--ros-args', '--log-level', log_level]
+    )
+    ld.add_action(ros2_hardware_protection_layer_node)
     # Add pattern
     launch_pattern = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([pattern]),

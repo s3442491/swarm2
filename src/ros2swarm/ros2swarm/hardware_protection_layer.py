@@ -20,7 +20,6 @@ from communication_interfaces.msg import RangeData
 from rclpy.qos import qos_profile_sensor_data
 from ros2swarm.utils.scan_calculation_functions import ScanCalculationFunctions
 
-
 class HardwareProtectionLayer(AbstractPattern):
     """
     Protects the robot from crashing into obstacles.

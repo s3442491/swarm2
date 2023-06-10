@@ -33,26 +33,25 @@ def generate_launch_description():
 
     ld = LaunchDescription()
     # Add sensor layer
-    if robot_type != "rosbot":
-        ros2_sensor_layer_node = launch_ros.actions.Node(
-            package='ros2swarm',
-            executable=[sensor_type,'_layer'],
-            namespace=robot_namespace,
-            output='screen',
-            parameters=[PathJoinSubstitution([config_dir, 'sensor_specification' + '.yaml'])],
-            arguments=['--ros-args', '--log-level', log_level]
-        )
-        ld.add_action(ros2_sensor_layer_node)
-        # Add Hardware protection layer
-        ros2_hardware_protection_layer_node = launch_ros.actions.Node(
-            package='ros2swarm',
-            executable='hardware_protection_layer',
-            namespace=robot_namespace,
-            output='screen',
-            parameters=[PathJoinSubstitution([config_dir, 'hardware_protection_layer' + '.yaml'])],
-            arguments=['--ros-args', '--log-level', log_level]
-        )
-        ld.add_action(ros2_hardware_protection_layer_node)
+    ros2_sensor_layer_node = launch_ros.actions.Node(
+        package='ros2swarm',
+        executable=[sensor_type,'_layer'],
+        namespace=robot_namespace,
+        output='screen',
+        parameters=[PathJoinSubstitution([config_dir, 'sensor_specification' + '.yaml'])],
+        arguments=['--ros-args', '--log-level', log_level]
+    )
+    ld.add_action(ros2_sensor_layer_node)
+    # Add Hardware protection layer
+    ros2_hardware_protection_layer_node = launch_ros.actions.Node(
+        package='ros2swarm',
+        executable='hardware_protection_layer',
+        namespace=robot_namespace,
+        output='screen',
+        parameters=[PathJoinSubstitution([config_dir, 'hardware_protection_layer' + '.yaml'])],
+        arguments=['--ros-args', '--log-level', log_level]
+    )
+    ld.add_action(ros2_hardware_protection_layer_node)
 
     # Add pattern
     launch_pattern = IncludeLaunchDescription(
@@ -64,16 +63,15 @@ def generate_launch_description():
 
     )
     ld.add_action(launch_pattern)
-    if robot_type != "rosbot":
-        # Add state publisher
-        robot_state_publisher = launch_ros.actions.Node(
-            package='robot_state_publisher',
-            executable='robot_state_publisher',
-            namespace=robot_namespace,
-            output='screen',
-            parameters=[{'use_sim_time': use_sim_time
-                        }],
-            arguments=[urdf_file, '--ros-args', '--log-level', 'warn']
-        )
-        ld.add_action(robot_state_publisher)
+    # Add state publisher
+    robot_state_publisher = launch_ros.actions.Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        namespace=robot_namespace,
+        output='screen',
+        parameters=[{'use_sim_time': use_sim_time
+                    }],
+        arguments=[urdf_file, '--ros-args', '--log-level', 'warn']
+    )
+    ld.add_action(robot_state_publisher)
     return ld
