@@ -70,7 +70,8 @@ class LidarLayer(Node):
         # sensor message publishers and subsribers
         self.scan_subscription = self.create_subscription(
             LaserScan,
-            self.get_namespace() + '/scan',
+            # self.get_namespace() + '/scan',
+            '/scan',
             self.scan_callback,
             qos_profile=qos_profile_sensor_data)
             

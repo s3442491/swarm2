@@ -29,7 +29,6 @@ from launch.substitutions import LaunchConfiguration, PathJoinSubstitution, Pyth
 from launch.substitutions import ThisLaunchFileDir
 from launch_ros.actions import Node
 
-
 def generate_launch_description():
     robot_type = LaunchConfiguration("robot", default='robot_type_default')
     usb_port = LaunchConfiguration('usb_port', default='/dev/ttyACM0')

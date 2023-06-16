@@ -63,7 +63,8 @@ class HardwareProtectionLayer(AbstractPattern):
         )
 
         self.publisher_cmd_vel = self.create_publisher(Twist,
-                                                       self.get_namespace() + '/cmd_vel',
+                                                    #    self.get_namespace() + '/cmd_vel',
+                                                       '/cmd_vel',
                                                        10)
 
         self.param_max_range = float(self.get_parameter(

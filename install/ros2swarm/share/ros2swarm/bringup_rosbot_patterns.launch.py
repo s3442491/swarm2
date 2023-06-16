@@ -26,7 +26,48 @@ def generate_launch_description():
     pattern = LaunchConfiguration('pattern', default='pattern_default')
     robot_type = LaunchConfiguration('robot_type', default='robot_type_default')
     log_level = LaunchConfiguration('log_level', default='debug')
+    
     ld = LaunchDescription()
+    # TODO: Launch robot hardware
+    rplidar_node = launch_ros.actions.Node(
+    )
+    ld.add_action(rplidar_node)
+    microros_node = launch_ros.actions.Node(
+    )
+    ld.add_action(microros_node)
+    rosbot_node = launch_ros.actions.Node(
+    )
+    ld.add_action(rosbot_node)
+    '''
+    services:
+        rplidar:
+            image: husarion/rplidar:humble
+            container_name: rplidar
+            restart: unless-stopped
+            devices:
+            - ${LIDAR_SERIAL:?err}:/dev/ttyUSB0
+            environment:
+            - RMW_IMPLEMENTATION
+            command: >
+                ros2 launch sllidar_ros2 sllidar_launch.py
+                serial_baudrate:=${RPLIDAR_BAUDRATE:-256000} __ns:=robot1
+        microros:
+            image: husarion/micro-ros-agent:humble
+            container_name: microros
+            restart: unless-stopped
+            devices:
+            - ${SERIAL_PORT:?err}
+            environment:
+            - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+            command: ros2 run micro_ros_agent micro_ros_agent serial -D $SERIAL_PORT serial -b 576000 __ns:=robot1 # -v6
+        rosbot:
+            image: husarion/rosbot:humble
+            container_name: rosbot
+            restart: unless-stopped
+            environment:
+            - RMW_IMPLEMENTATION
+            command: ros2 launch rosbot_bringup bringup.launch.py __ns:=robot1
+    '''
     # Add sensor layer
     ros2_sensor_layer_node = launch_ros.actions.Node(
         package='ros2swarm',
@@ -54,6 +95,7 @@ def generate_launch_description():
                           'robot_namespace': [robot_namespace],
                           'config_dir': config_dir,
                          }.items(),
+
     )
     ld.add_action(launch_pattern)
     return ld

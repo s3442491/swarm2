@@ -17,6 +17,7 @@ class DemoPattern(MovementPattern):
         self.declare_parameters(
             namespace='',
             parameters=[
+                ('use_timer', False),
                 ('timer_period', 1.0),
                 ('goal_x', 10.0),
                 ('goal_y', 10.0),
@@ -26,7 +27,8 @@ class DemoPattern(MovementPattern):
         )
         # Create a timer that calls timer_callback every timer_period.
         timer_period = float(self.get_parameter("timer_period").get_parameter_value().double_value)
-        self.timer = self.create_timer(timer_period, self.swarm_command_controlled_timer(self.timer_callback))
+        if (self.get_parameter("use_timer")):
+            self.timer = self.create_timer(timer_period, self.swarm_command_controlled_timer(self.timer_callback))
         self.i = 0
         # Initialise the target goal.
         self.goal = Point()
@@ -40,7 +42,8 @@ class DemoPattern(MovementPattern):
         # Create a subscription to odometry that is handled by odom_callback.
         self.range_data_subscription = self.create_subscription(
             Odometry,
-            self.get_namespace() + '/odom',
+            # self.get_namespace() + '/odom',
+            '/odom',
             self.swarm_command_controlled(self.odom_callback),
             qos_profile = 1
         )
@@ -102,14 +105,12 @@ class DemoPattern(MovementPattern):
         self.i += 1
 
     def timer_callback(self):
-        '''
         twist = Twist()
         twist.linear.x = self.param_x
         twist.angular.z = self.param_z
         self.command_publisher.publish(twist)
         self.get_logger().info('publishing {}:"{}"'.format(self.i, twist))
         self.i += 1
-        '''
 
 def main(args=None):
     """

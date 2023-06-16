@@ -38,8 +38,7 @@ def generate_launch_description():
 
     launch_file_dir = os.path.join(get_package_share_directory('ros2swarm'))
     launch_pattern_dir = os.path.join(get_package_share_directory('ros2swarm'), 'launch', 'pattern')
-    rosbot2_pro_launch_file_dir = os.path.join(get_package_share_directory('rosbot_description'), 'launch')
-
+   
     for arg in sys.argv:
         if arg.startswith("robot_number:="):  # The number of the robot
             robot_number = int(arg.split(":=")[1])
@@ -69,7 +68,6 @@ def generate_launch_description():
 
     robot_type = robot
     turtle_node = True
-    rosbot_node = False
     if robot_type.startswith('burger'):
         robot_type = "burger"
     elif robot_type.startswith('waffle_pi'):
@@ -83,7 +81,6 @@ def generate_launch_description():
     elif robot_type.startswith('rosbot'):
         robot_type = "rosbot"
         turtle_node = False
-        rosbot_node = True
     urdf_file = None
     ld = LaunchDescription()
     # Add the log level argument to the launch description
@@ -120,16 +117,27 @@ def generate_launch_description():
             if name == pattern_launch_file_name:
                 pattern_path = os.path.abspath(os.path.join(root, name))
     # add patterns
-    launch_patterns = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([launch_file_dir, '/' + 'bringup_patterns.launch.py']),
-        launch_arguments={'robot': robot,
-                          'robot_type': robot_type,
-                          'robot_namespace': ['robot_namespace_', str(robot_number)],
-                          'pattern': pattern_path,
-                          'config_dir': config_dir,
-                          'urdf_file': urdf_file
-                          }.items(),
-    )
+    if robot_type != "rosbot":
+        launch_patterns = IncludeLaunchDescription(
+            PythonLaunchDescriptionSource([launch_file_dir, '/' + 'bringup_patterns.launch.py']),
+            launch_arguments={'robot': robot,
+                            'robot_type': robot_type,
+                            'robot_namespace': ['robot_namespace_', str(robot_number)],
+                            'pattern': pattern_path,
+                            'config_dir': config_dir,
+                            'urdf_file': urdf_file
+                            }.items(),
+        )
+    else:
+        launch_patterns = IncludeLaunchDescription(
+            PythonLaunchDescriptionSource([launch_file_dir, '/' + 'bringup_rosbot_patterns.launch.py']),
+            launch_arguments={
+                            'robot_type': robot_type,
+                            'robot_namespace': ['robot_namespace_', str(robot_number)],
+                            'pattern': pattern_path,
+                            'config_dir': config_dir
+                            }.items(),
+        )
     ld.add_action(launch_patterns)
 
     return ld

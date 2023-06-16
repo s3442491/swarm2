@@ -52,7 +52,6 @@ def generate_launch_description():
         arguments=['--ros-args', '--log-level', log_level]
     )
     ld.add_action(ros2_hardware_protection_layer_node)
-
     # Add pattern
     launch_pattern = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([pattern]),

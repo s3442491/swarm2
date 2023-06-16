@@ -14,7 +14,7 @@
 #    limitations under the License.
 colcon build --symlink-install &&
  source ./install/setup.bash &&
- ROS_DOMAIN_ID=42 ros2 launch ros2swarm bringup_robot.launch.py \
+ ROS_DOMAIN_ID=0 ros2 launch ros2swarm bringup_robot.launch.py \
  pattern:=drive_pattern \
  log_level:=info \
  robot:=rosbot \

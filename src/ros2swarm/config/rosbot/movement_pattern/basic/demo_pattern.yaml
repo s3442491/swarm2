@@ -1,7 +1,8 @@
 /**:
   ros__parameters:
-    timer_period: 2.0
-    goal_x: 10.0
-    goal_y: 10.0
-    twist_linear_x: 0.5
-    twist_angular_z: 0.3
+    use_timer: False # If 'use_timer' is set, Twists will only be published every 'timer_period' seconds.
+    timer_period: 2.0 # If 'use_timer' is set, Twists will only be published every 'timer_period' seconds
+    goal_x: 10.0 # The x-coordinate of the target position.
+    goal_y: 10.0 # The y-coordinate of the target position.
+    twist_linear_x: 0.5 # The linear velocity about the x-axis.
+    twist_angular_z: 0.3 # The angular velocity about the z-axis.
