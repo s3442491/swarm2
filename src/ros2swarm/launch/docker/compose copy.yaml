@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  rplidar:
+    image: husarion/rplidar:humble
+    container_name: rplidar
+    restart: unless-stopped
+    devices:
+      - ${LIDAR_SERIAL:?err}:/dev/ttyUSB0
+    environment:
+      - RMW_IMPLEMENTATION
+      - ROS_DOMAIN_ID=${ROS_DOMAIN_ID}
+    volumes:
+      - /home/husarion/roslidar/src/sllidar_ros2/launch/sllidar_launch.py:/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py     
+    command: sh -c 'printenv && ros2 launch sllidar_ros2 sllidar_launch.py serial_baudrate:=${RPLIDAR_BAUDRATE:-256000}'
+
+  rosbot:
+    image: husarion/rosbot:humble
+    container_name: rosbot
+    restart: unless-stopped
+    environment:
+      - RMW_IMPLEMENTATION
+      - ROS_DOMAIN_ID=${ROS_DOMAIN_ID}
+    volumes:
+      - /home/husarion/rosbot_ws/src/rosbot_bringup/launch/bringup.launch.py:/ros2_ws/install/rosbot_bringup/share/rosbot_bringup/launch/bringup.launch.py
+    command: sh -c 'printenv && ros2 launch rosbot_bringup bringup.launch.py'
+
+  microros:
+    image: custom-micro-ros-agent
+    container_name: microros
+    restart: unless-stopped
+    devices:
+      - ${SERIAL_PORT:?err}
+    environment:
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+      - ROS_DOMAIN_ID=${ROS_DOMAIN_ID}
+    command: sh -c 'printenv && ROS_DOMAIN_ID=5 ros2 run micro_ros_agent micro_ros_agent serial -D $SERIAL_PORT serial -b 576000'
+
